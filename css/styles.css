@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #9c161a;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.header-logo {
+    height: 125px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links a {
+    position: relative;          /* make ::after position relative to the link */
+    display: inline-block;       /* so the underline matches text width */
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+/* invisible underline by default */
+.nav-links a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;                /* distance under the text */
+    width: 100%;
+    height: 2px;
+    background: #fefefe;         /* or any color you want */
+    transform: scaleX(0);        /* start hidden */
+    transform-origin: left center;
+    transition: transform 0.3s ease;
+}
+
+/* animate left → right on hover/focus */
+.nav-links a:hover::after,
+.nav-links a:focus::after {
+    transform: scaleX(1);
+}
+
+.mobile-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fefefe;
+}
+
+#main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    color: #fefefe;
+    padding: 10px;
+}
+#main-footer p{
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    text-align: center;
+}
+#category-card-holder{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 60px 0;
+}
+.category-card {
+    padding: 15px;
+    color: #0e0e0e;
+    max-width: 500px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.35);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0e0e0e;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.category-card img {
+    width: 100%;
+    height: auto;
+}
+.category-card p {
+    margin-top: 20px;
+    color: #0e0e0e;
+    font-size: 20px;
+}
+.category-card:hover {
+    transform: scale(1.05);
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: block;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        /* top: -350px; */
+        left: 0;
+        width: 100vw;
+        background: #5c080b;    
+        z-index: 3;
+            /* hidden state */
+        transform: translateY(-100%);
+        opacity: 0;
+        pointer-events: none;         /* prevents accidental clicks   */
+        transition: transform .75s ease, opacity .75s ease;  /* GPU‑friendly */
+    }
+    .nav-links.open {     
+        margin-top: 45px;          /* shown state */
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;         /* re‑enable clicking           */
+    }
+    /* simple variant without extra class for closing ------------ */
+    .nav-links:not(.open) {
+        /* keeps it hidden when .open is removed */
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    .nav-links li{
+        text-align: center;
+        padding: 15px 0 15px 0;
+        margin: 0;
+    }
+    .nav-links li a {
+        text-align: center;
+        font-size: 20px;
+        flex: grow;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .header-logo {
+        height: 80px;
+    }
+    #main-footer {
+        flex-direction: column;
+    }
+}
