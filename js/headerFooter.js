@@ -7,9 +7,9 @@ mainHeader.innerHTML = `
         <img src="./imgs/main-logo.png" alt="Young Drivers logo" class="header-logo"/>
         <nav>
                 <ul class="nav-links">
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="/products.html?category=equipment">Equipment</a></li>
-                    <li><a href="/products.html?category=party">Events</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html?category=equipment">Equipment</a></li>
+                    <li><a href="products.html?category=party">Events</a></li>
                     <li><a href="#" class="btn">About Us</a></li>
                 </ul>
             </nav>
