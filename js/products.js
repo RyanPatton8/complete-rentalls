@@ -6,8 +6,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 100 }
         ],
-        "category" : "equipment",
-        "subCategory" : "Excavators"
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "2",
@@ -16,8 +17,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 100 }
         ],
-        "category" : "equipment",
-        "subCategory" : "Excavators"
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "4",
@@ -26,8 +28,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 100 }
         ],
-        "category" : "equipment",
-        "subCategory" : "Hand Tools"
+        "category" : "Equipment",
+        "subCategory" : "Hand Tools",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "3",
@@ -36,8 +39,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 100 }
         ],
-        "category" : "equipment",
-        "subCategory" : "Excavators"
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "5",
@@ -46,8 +50,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 150 }
         ],
-        "category" : "party",
-        "subCategory" : "Tables and Chairs"
+        "category" : "Events",
+        "subCategory" : "Tables and Chairs",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "7",
@@ -56,8 +61,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 150 }
         ],
-        "category" : "party",
-        "subCategory" : "Silver Ware"
+        "category" : "Events",
+        "subCategory" : "Silver Ware",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "6",
@@ -66,8 +72,9 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 150 }
         ],
-        "category" : "party",
-        "subCategory" : "Tables and Chairs"
+        "category" : "Events",
+        "subCategory" : "Tables and Chairs",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "8",
@@ -76,7 +83,30 @@ const products = [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 150 }
         ],
-        "category" : "party",
-        "subCategory" : "Silver Ware"
+        "category" : "Events",
+        "subCategory" : "Silver Ware",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "9",
+        "name" : "Knife",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 150 }
+        ],
+        "category" : "Events",
+        "subCategory" : "Silver Ware",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "10",
+        "name" : "Knife",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 150 }
+        ],
+        "category" : "Events",
+        "subCategory" : "Silver Ware",
+        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
     },
 ];

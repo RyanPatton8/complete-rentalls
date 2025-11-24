@@ -4,12 +4,13 @@ const mainFooter = document.querySelector("#main-footer");
 // insert all of the elements i want inside them
 mainHeader.innerHTML = `
         <div class="container header-container">
-        <img src="./imgs/main-logo.png" alt="Young Drivers logo" class="header-logo"/>
+        <a href="index.html"><img src="./imgs/main-logo.png" alt="Young Drivers logo" class="header-logo"/>
+        </a>
         <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="products.html?category=equipment">Equipment</a></li>
-                    <li><a href="products.html?category=party">Events</a></li>
+                    <li><a href="product-categories.html?category=Equipment">Equipment</a></li>
+                    <li><a href="product-categories.html?category=Events">Events</a></li>
                     <li><a href="#" class="btn">About Us</a></li>
                 </ul>
             </nav>

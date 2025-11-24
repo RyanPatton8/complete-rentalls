@@ -1,7 +1,7 @@
 const urlParams = new URLSearchParams(window.location.search);
-const category = urlParams.get("sub-category");
+const category = urlParams.get("category");
 function getItemsIncategory(category) {
-    let items = products.filter(p => p.subCategory === category);
+    let items = products.filter(p => p.category === category);
     const sorted = items.sort((a, b) => {
         // First sort by category
         const catCompare = a.subCategory.localeCompare(b.subCategory);
@@ -13,17 +13,21 @@ function displayResults(results){
     console.log(results);
     let currentSubCategory = null;
     let main = document.querySelector("#products-showcase");
-    main.innerHTML += `<h3 class="title">${category}:</h3>`;
+    main.innerHTML += `
+    <h1 class="title">Our ${category === "Equipment" ? "Equipment" : "Event Items"}:</h1>
+    `
     let itemsString = `<div id="item-holder">`;
     for(p of results){
         if (p.subCategory !== currentSubCategory) {
             currentSubCategory = p.subCategory;
+            itemsString += `
+                <a href="./products.html?sub-category=${currentSubCategory}" class="item-card">
+                    <img src="${p.img}">
+                    <p>${p.subCategory}</p>
+                </a>
+                `
+            ;
         }
-        itemsString += `
-            <a href="./product-details.html?id=${p.id}" class="item-card"><img src="${p.img}">
-                <p>${p.name}</p>
-            </a>
-        `;
     }
     itemsString += "</div>";
     main.innerHTML += itemsString;
