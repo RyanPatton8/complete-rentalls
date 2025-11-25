@@ -19,7 +19,7 @@ const products = [
         ],
         "category" : "Equipment",
         "subCategory" : "Excavators",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "imgs/Equipment.png"
     },
     {
         "id" : "4",

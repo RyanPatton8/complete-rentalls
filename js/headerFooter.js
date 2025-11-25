@@ -20,8 +20,7 @@ mainHeader.innerHTML = `
 
 mainFooter.innerHTML = `
         <p>77 Memorial Avenue, Orillia, Ontario Canada, L3V 5W9</p>
-        <p>Phone: 705-327-RENT</p>
-        <p>Complete Rent-Alls</p>
+        <p>705-327-RENT</p>
 `
 
 // Mobile Menu Toggle
