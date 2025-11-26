@@ -8,7 +8,7 @@ const products = [
         ],
         "category" : "Equipment",
         "subCategory" : "Excavators",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "2",
@@ -30,7 +30,7 @@ const products = [
         ],
         "category" : "Equipment",
         "subCategory" : "Hand Tools",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "3",
@@ -41,7 +41,7 @@ const products = [
         ],
         "category" : "Equipment",
         "subCategory" : "Excavators",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "5",
@@ -52,7 +52,7 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Tables and Chairs",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "7",
@@ -63,7 +63,7 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Silver Ware",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "6",
@@ -74,7 +74,7 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Tables and Chairs",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "8",
@@ -85,7 +85,7 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Silver Ware",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "9",
@@ -96,7 +96,7 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Silver Ware",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {
         "id" : "10",
@@ -107,6 +107,6 @@ const products = [
         ],
         "category" : "Events",
         "subCategory" : "Silver Ware",
-        "img" : "imgs/products/Equipment/airhose-3.8x50.jpg"
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
 ];
