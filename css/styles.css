@@ -85,7 +85,7 @@ main {
     margin-top: 50px;
 }
 #main-footer p{
-    padding: 10px;
+    padding: 20px;
     margin: 0 5px 0 5px;
     text-align: center;
 }
@@ -129,7 +129,7 @@ section {
     align-items: center;
 }
 section h2 {
-    font-size: 60px;
+    font-size: 50px;
     align-self: flex-start;
 }
 iframe {
@@ -138,47 +138,49 @@ iframe {
 .info-section {
     background: #ffffff;
     padding: 30px 40px;
-    max-width: 1000px;
+    max-width: 80%;
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
     margin: 25px 0;
+    display: flex;
+    flex-direction: column;
 }
 .info-section h2 {
     margin: 0 0 16px 0;
     font-size: 2.2rem;
-    letter-spacing: 0.03em;
-    position: relative;
     text-decoration: underline;
     text-decoration-color: #9c161a;
     text-decoration-thickness: 5px;
+}
+#what-we-offer {
+    justify-self: center;
+    align-self: center;
 }
 .info {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;
     flex-wrap: wrap;
+    width: 100%;
 }
 .info p {
     width: 45%;
 }
-.info img {
+.info img, .info iframe {
     width: 50%;
 }
-/* map */
-.map-wrapper {
-    position: relative;
-    width: 50%;
-    aspect-ratio: 4 / 3;
+.info #contact {
+    width: 45%;
 }
-.map-wrapper iframe {
-    position: absolute;
-    inset: 0;
+#contact h3 {
+    font-size: 25px;
+    margin: 10px 0;
+}
+#contact p {
+    font-size: 20px;
     width: 100%;
-    height: 100%;
-    border: 0;
-    border-radius: 8px;
+    margin: 0 0 5px 0;
 }
 #item-holder{
     display: flex;
@@ -213,6 +215,9 @@ iframe {
 }
 .title {
     font-size: 50px;
+}
+#products-showcase{
+    display: block;
 }
 /* Responsive Design */
 @media (max-width: 768px) {
