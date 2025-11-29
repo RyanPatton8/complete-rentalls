@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0;
     display: flex;
@@ -178,6 +181,7 @@ main {
     align-items: center;
     gap: 0.5rem;
     transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.1s ease;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
@@ -199,10 +203,11 @@ main {
     align-items: center;
     gap: 0.5rem;
     transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.1s ease;
+    text-decoration: none;
 }
 
 .btn-secondary:hover {
-    background: #f4f4f4;
+    background: #c5c5c5;
     border-color: var(--primary);
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
@@ -248,10 +253,10 @@ iframe {
 }
 #what-we-offer-holder {
     padding: 75px 0 75px;
-    /* background-color: #0e0e0e; */
     background: linear-gradient(to right,#696969, #bdbcbc, #aaaaaa, #bdbcbc, #696969);
     border-top: 5px solid #696969;
     border-bottom: 5px solid #696969;
+    scroll-margin-top: 100px;
 }
 #what-we-offer {
     padding: 30px 40px;
@@ -346,11 +351,13 @@ iframe {
     background-color: #6b1d1d;
     
     padding: 75px 0 75px 0;
+    scroll-margin-top: 110px;
 }
 #about-us-holder {
-    padding: 75px 0 75px 0;
+    padding: 100px 0 100px 0;
     align-self: center;
     border-bottom: 5px solid #3f0709;
+    scroll-margin-top: 110px;
 }#about-us-history {
     margin: 15px 0;
     line-height: 22px;
@@ -371,7 +378,7 @@ iframe {
 }
 .info img, .info iframe {
     width: 50%;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 .info #contact {
     width: 45%;
@@ -418,7 +425,6 @@ iframe {
 }
 .item-card img {
     width: 100%;
-    
 }
 .item-card p {
 
