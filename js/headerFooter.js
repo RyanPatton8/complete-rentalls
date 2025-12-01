@@ -11,8 +11,8 @@ mainHeader.innerHTML = `
                     <li><a href="index.html#">Home</a></li>
                     <li><a href="product-categories.html?category=Equipment">Equipment</a></li>
                     <li><a href="product-categories.html?category=Events">Events</a></li>
-                    <li><a href="index.html#contact-us-holder" class="btn">Contact Us</a></li>
                     <li><a href="index.html#about-us-holder" class="btn">About Us</a></li>
+                    <li><a href="index.html#contact-us-holder" class="btn">Contact Us</a></li>
                 </ul>
             </nav>
             <div class="mobile-menu">&#9776;</div>
