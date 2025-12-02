@@ -514,6 +514,9 @@ iframe {
     .hero-main {
         margin-left: 20px;
     }
+    #events-card::before, #equipment-card::before{
+        filter: blur(0px);
+    }
     #main-footer {
         flex-direction: column;
     }
