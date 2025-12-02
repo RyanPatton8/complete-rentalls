@@ -126,22 +126,7 @@ main {
     width: 100%;
 }
 .hero-main, .hero-card {
-    margin: 0 0 0 400px;
-}
-.hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.4rem;
-    padding: 0.2rem 0.8rem;
-    border-radius: 999px;
-    background: rgba(0,0,0,0.08);
-    border: 1px solid var(--metal);
-    color: #111111;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-bottom: 0.8rem;
+    margin: 0 0 0 20%;
 }
 
 .hero h1 {
@@ -208,7 +193,7 @@ main {
 
 .btn-secondary:hover {
     background: #c5c5c5;
-    border-color: var(--primary);
+    transform: translateY(-1px);
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
 .flex-column {
@@ -289,8 +274,8 @@ iframe {
     overflow: hidden;
     text-decoration: none;
     margin: 10px 40px;
-    height: 275px;
-    width: 430px;
+    height: 325px;
+    width: 525px;
     border-radius: 15px;
     transition: transform 0.35s ease;
 }
@@ -372,6 +357,7 @@ iframe {
     height: 400px;
     border-radius: 8px;
     object-fit: cover;
+    object-position: 65% 50%;
 }
 .info #contact {
     width: 45%;
@@ -381,7 +367,6 @@ iframe {
 }
 #contact-us-holder {
     background-color: #6b1d1d;
-    
     padding: 75px 0 75px 0;
     scroll-margin-top: 110px;
 }
@@ -439,32 +424,74 @@ iframe {
     display: block;
 }
 /* Responsive Design */
+@media (max-width: 1500px){
+    .info img, .info iframe {
+        object-position: 65% 50%;
+    }
+}
+@media (max-width: 1250px){
+    .category-card {
+        height: 275px;
+        width: 430px;
+    }
+}
+@media (max-width: 1050px){
+    #what-we-offer {
+        max-width: 100%;
+        margin: 10px 0;
+        padding: 30px 0;
+    }
+    .category-card{
+        margin: 10px 20px;
+        height: 225px;
+        width: 320px;
+    }
+    #about-us-section .info {
+        flex-direction: column;
+    }
+    .info #about-us-history, .info img, .info iframe {
+        max-width: 100%;
+        width: 100%;
+    }
+    #contact-us-section .info {
+        flex-direction: column-reverse;
+    }
+    .info #contact {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .info #contact div {
+        width: 33%;
+        text-align: center;
+    }
+    #contact-us, #about-us {
+        font-size: 55px;
+        align-self: center;
+    }
+}
 @media (max-width: 768px) {
     .nav-links {
         display: block;
         position: absolute;
         margin: 0;
         padding: 0;
-        /* top: -350px; */
         left: 0;
         width: 100vw;
         background: #5c080b;    
         z-index: 3;
-            /* hidden state */
         transform: translateY(-100%);
         opacity: 0;
-        pointer-events: none;         /* prevents accidental clicks   */
-        transition: transform .75s ease, opacity .75s ease;  /* GPU‑friendly */
+        pointer-events: none;         
+        transition: transform .75s ease, opacity .75s ease;  
     }
     .nav-links.open {     
-        margin-top: 45px;          /* shown state */
+        margin-top: 45px;          
         transform: translateY(0);
         opacity: 1;
-        pointer-events: auto;         /* re‑enable clicking           */
+        pointer-events: auto;        
     }
-    /* simple variant without extra class for closing ------------ */
     .nav-links:not(.open) {
-        /* keeps it hidden when .open is removed */
         transform: translateY(-100%);
         opacity: 0;
     }
@@ -487,34 +514,6 @@ iframe {
     .hero-main {
         margin-left: 20px;
     }
-    #what-we-offer {
-        max-width: 100%;
-        margin: 10px 0;
-        padding: 30px 0;
-    }
-    .category-card{
-        margin: 10px 20px;
-        height: 200px;
-        width: 320px;
-    }
-    #about-us-section .info {
-        flex-direction: column;
-    }
-    .info #about-us-history, .info img, .info iframe {
-        max-width: 100%;
-        width: 100%;
-    }
-    #contact-us-section .info {
-        flex-direction: column-reverse;
-    }
-    .info #contact {
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-    }
-    .info #contact div {
-        width: 33%;
-    }
     #main-footer {
         flex-direction: column;
     }
@@ -529,9 +528,15 @@ iframe {
         height: 350px;
     }
 }
+@media (max-width: 680px) {
+    .category-card {
+        height: 300px;
+        width: 90%;
+    }
+}
 @media (max-width: 425px){
     .hero-main h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
     #what-we-offer h2 {
         font-size: 35px;
