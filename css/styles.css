@@ -57,7 +57,7 @@ main {
     content: "";
     position: absolute;
     left: 0;
-    bottom: -4px;                /* distance under the text */
+    bottom: 0px;                /* distance under the text */
     width: 100%;
     height: 2px;
     background: #fefefe;         /* or any color you want */
@@ -486,7 +486,7 @@ iframe {
         transition: transform .75s ease, opacity .75s ease;  
     }
     .nav-links.open {     
-        margin-top: 45px;          
+        margin-top: 30px;          
         transform: translateY(0);
         opacity: 1;
         pointer-events: auto;        
@@ -509,7 +509,7 @@ iframe {
         display: block;
     }
     .header-logo {
-        height: 80px;
+        height: 40px;
     }
     .hero-main {
         margin-left: 20px;
@@ -533,7 +533,7 @@ iframe {
 }
 @media (max-width: 680px) {
     .category-card {
-        height: 300px;
+        height: 200px;
         width: 90%;
     }
 }
@@ -541,12 +541,19 @@ iframe {
     .hero-main h1 {
         font-size: 40px;
     }
+    #about-us-holder{
+        padding: 100px 0 75px 0;
+        width: 100vw;
+    }
     #what-we-offer h2 {
         font-size: 35px;
     }
     #contact-us, #about-us {
         font-size: 50px;
         text-align: center;
+    }
+    .info {
+        width: 95vw;
     }
     .info #contact {
         flex-direction: column;
@@ -560,7 +567,7 @@ iframe {
     }
     .info-section {
         padding: 0;
-        width: 90%;
+        width: 100%;
     }
     .info img {
         object-position: 65% 50%;
