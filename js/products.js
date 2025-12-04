@@ -22,15 +22,37 @@ const products = [
         "img" : "imgs/Equipment.png"
     },
     {
-        "id" : "4",
-        "name" : "Shovel",
+        "id" : "3",
+        "name" : "Skid Steer",
         "prices" : [
             { "label": "1 Day",  "amount": 50 },
             { "label": "1 Week", "amount": 100 }
         ],
         "category" : "Equipment",
-        "subCategory" : "Hand Tools",
+        "subCategory" : "Excavators",
         "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "1",
+        "name" : "Excavator",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "Back Hoe",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/Equipment.png"
     },
     {
         "id" : "3",
@@ -41,6 +63,83 @@ const products = [
         ],
         "category" : "Equipment",
         "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "1",
+        "name" : "Excavator",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "Back Hoe",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/Equipment.png"
+    },
+    {
+        "id" : "3",
+        "name" : "Skid Steer",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "1",
+        "name" : "Excavator",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "2",
+        "name" : "Back Hoe",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "imgs/Equipment.png"
+    },
+    {
+        "id" : "3",
+        "name" : "Skid Steer",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Excavators",
+        "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
+    },
+    {
+        "id" : "4",
+        "name" : "Shovel",
+        "prices" : [
+            { "label": "1 Day",  "amount": 50 },
+            { "label": "1 Week", "amount": 100 }
+        ],
+        "category" : "Equipment",
+        "subCategory" : "Hand Tools",
         "img" : "./imgs/products/equipment/airhose-3.8x50.jpg"
     },
     {

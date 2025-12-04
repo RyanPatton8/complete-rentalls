@@ -13,7 +13,7 @@ function displayResults(results){
     console.log(results);
     let currentSubCategory = null;
     let main = document.querySelector("#products-showcase");
-    main.innerHTML += `<h3 class="title">${category}:</h3>`;
+    document.querySelector(".category-title").textContent = category;
     let itemsString = `<div id="item-holder">`;
     for(p of results){
         if (p.subCategory !== currentSubCategory) {
