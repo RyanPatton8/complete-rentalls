@@ -36,6 +36,15 @@ document.querySelector('.mobile-menu').addEventListener('click', function() {
     } 
 });
 
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.remove('open');
+        navLinks.classList.add('close');
+    });
+});
+
+
 // Smooth Scrolling for Anchor Links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {

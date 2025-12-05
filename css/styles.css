@@ -110,7 +110,6 @@ main {
     background-image: inherit;
     background-size: inherit;
     background-position: inherit;
-    filter: blur(1.8px);
     transform: scale(1.05); 
     z-index: 0;
 }
@@ -118,7 +117,7 @@ main {
 .mask {
     position: relative;
     z-index: 1;
-    background-color: rgba(2, 2, 0, .7);
+    background-color: rgba(2, 2, 0, .75);
     display: flex;
     align-items: center;
     justify-content: left;
@@ -335,7 +334,7 @@ iframe {
     padding: 100px 0 100px 0;
     align-self: center;
     border-bottom: 5px solid #3f0709;
-    scroll-margin-top: 110px;
+    scroll-margin-top: 60px;
 }#about-us-history {
     margin: 15px 0;
     line-height: 22px;
@@ -367,7 +366,7 @@ iframe {
 #contact-us-holder {
     background-color: #6b1d1d;
     padding: 75px 0 75px 0;
-    scroll-margin-top: 110px;
+    scroll-margin-top: 60px;
 }
 #contact-us-section {
     /* box-shadow: 0 4px 18px rgba(0, 0, 0, .55); */

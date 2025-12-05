@@ -1,6 +1,6 @@
 const products = {
   "Equipment": {
-    "Excavators": [
+    "Heavy Equipment": [
       {
         "id": "1",
         "name": "Excavator",
@@ -27,30 +27,10 @@ const products = {
           { "label": "1 Week", "amount": 100 }
         ],
         "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      }
-    ],
-    "Excavat": [
-      {
-        "id": "1",
-        "name": "Excavator",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
       },
       {
-        "id": "2",
-        "name": "Back Hoe",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "imgs/Equipment.png"
-      },
-      {
-        "id": "3",
-        "name": "Skid Steer",
+        "id": "4",
+        "name": "Crane",
         "prices": [
           { "label": "1 Day",  "amount": 50 },
           { "label": "1 Week", "amount": 100 }
@@ -58,6 +38,7 @@ const products = {
         "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
       }
     ],
+
     "Hand Tools": [
       {
         "id": "4",
