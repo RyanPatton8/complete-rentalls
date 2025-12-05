@@ -281,11 +281,11 @@ iframe {
 }
 /* Background image lives ONLY on ::before per card */
 #equipment-card::before {
-    background-image: url(../imgs/equipment.png);
+    background-image: url(../imgs/stand-on-skid-auger.jpeg);
 }
 
 #events-card::before {
-    background-image: url(../imgs/events.png);
+    background-image: url(../imgs/40-x-80-water-pic-600x600.jpg);
 }
 
 /* Blurred image layer (default state) */
@@ -295,8 +295,7 @@ iframe {
     position: absolute;
     inset: 0;
     background-size: cover;
-    background-position: bottom;
-    filter: blur(1px);               
+    background-position: bottom;               
     z-index: 0;
     transition: filter 0.4s ease, 
                 transform 0.4s ease;
@@ -308,7 +307,7 @@ iframe {
 .category-card-mask {
     position: relative;
     z-index: 1;
-    background-color: rgba(2, 2, 0, 0.45);
+    background-color: rgba(2, 2, 0, 0.60);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -392,9 +391,40 @@ iframe {
     flex-wrap: wrap;
     justify-content: center;
 }
+.products-header{
+    height: 55vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: 50% 50%;
+    clip-path: polygon(0 100%, 0 0, 100% 0, 100% 100%, 50% 95%);
+}
+.products-header .mask {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(2, 2, 0, .8);
+}
+
 .category-title {
     font-size: 50px;
     justify-self: center;
+    text-align: center;
+    color: #fefefe;
+    font-weight: 650;
+}
+#search {
+    width: 40%;
+    border: 2px solid #0e0e0e;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 15px;
+    margin: 15px 0 70px 0;
+}
+#products-showcase{
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 .item-card {
     padding: 10px;
@@ -425,17 +455,6 @@ iframe {
 .item-card:hover {
     transform: scale(1.05);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
-}
-#search {
-    width: 40%;
-    border: 2px solid #0e0e0e;
-    border-radius: 5px;
-    padding: 10px;
-}
-#products-showcase{
-    display: flex;
-    justify-content: start;
-    align-items: center;
 }
 /* Responsive Design */
 @media (max-width: 1500px){
@@ -547,6 +566,9 @@ iframe {
         height: 200px;
         width: 90%;
     }
+    #search{
+        width: 80%;
+    }
 }
 @media (max-width: 425px){
     .hero-main h1 {
@@ -590,20 +612,23 @@ iframe {
         flex-direction: row;
         width: 100%;
         max-width: 100%;
-        max-height: 100px;
+        max-height: 65px;
         min-height: 50px;
-        justify-content: space-between;
+        padding: 5px;
+        justify-content: flex-start;
     }
     .item-card img {
-        width: 45%;
-        height: 80%;
+        width: 35%;
+        height: 100%;
         object-fit: cover;
         border-radius: 5px;
+
     }
     .item-card p {
         font-weight: 550;
         word-wrap: break-word;
         max-width: 50%;
+        margin-left: 20px;
     }
 }
 

@@ -1,7 +1,11 @@
 const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("category");
+const subCategory = urlParams.get("sub-category");
 const productID = urlParams.get("id");
 function getItemById(id){
-    let product = products.filter(p => p.id === id)[0];
+    const categoryItems = products[category];
+    const subCategoryItems = categoryItems[subCategory];
+    let product = subCategoryItems.filter(p => p.id === id)[0];
     displayResults(product);
 }
 

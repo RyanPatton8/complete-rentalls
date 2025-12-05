@@ -1,34 +1,59 @@
 const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("category");
+const main = document.querySelector("#products-showcase");
+const equipmentObj = products[category];
 
-function getItemsIncategory(category) {
-    const categoryItems = products[category];
-    displayResults(categoryItems);
-}
+// Create the holder once in your HTML
+itemHolder = document.createElement("div");
+itemHolder.id = "item-holder";
+main.appendChild(itemHolder);
 
-function displayResults(categoryItems) {
-    let main = document.querySelector("#products-showcase");
-    document.querySelector(".category-title").textContent = category === "Equipment" ? "Equipment" : "Event Items";
-    let itemsString = `<div id="item-holder">`;
-    for (const [subCategory, list] of Object.entries(categoryItems)) {
+function renderItems(entries) {
+    itemHolder.innerHTML = "";
+    for (const [subCategory, list] of entries) {
         const firstItem = list[0];
-        itemsString += `
-            <a href="./products.html?category=${encodeURIComponent(category)}&sub-category=${encodeURIComponent(subCategory)}" class="item-card">
-                <img src="${firstItem.img}">
-                <p>${subCategory}</p>
-            </a>
+        const card = document.createElement("a");
+        card.href = `./products.html?category=${encodeURIComponent(category)}&sub-category=${encodeURIComponent(subCategory)}`;
+        card.className = "item-card";
+        card.innerHTML = `
+        <img src="${firstItem.img}">
+        <p>${subCategory}</p>
         `;
-    }
-    itemsString += "</div>";
-    main.innerHTML += itemsString;
-}
-
-function displaySearch(query) {
-    if (query === "") {
-        getItemsIncategory(category);
-    } else {
-        // handle search later
+        itemHolder.appendChild(card);
     }
 }
 
-getItemsIncategory(category);
+renderItems(Object.entries(equipmentObj));
+
+const searchBar = document.querySelector("#search");
+searchBar.placeholder = "Type the category you're looking for";
+
+function normalize(str) {
+    return str.toLowerCase().replace(/\s/g, '').trim();
+}
+
+searchBar.addEventListener("input", (event) => {
+    const term = normalize(event.target.value);
+    const filtered = Object.entries(equipmentObj).filter(
+        ([subCategoryName, items]) => {
+            const subNorm = normalize(subCategoryName);
+            if (subNorm.startsWith(term)) {
+                return true;
+            }
+            return items.some(item => normalize(item.name).includes(term));
+        }
+    );
+
+    renderItems(filtered);
+});
+
+if(category === "Equipment"){
+    document.querySelector(".category-title").textContent = "Equipment Categories";
+    document.querySelector(".products-header").style.backgroundImage = "url(./imgs/stand-on-skid-auger.jpeg)";
+}
+else {
+    document.querySelector(".category-title").textContent = "Event Categories";
+    document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-600x600.jpg)";
+    document.querySelector(".products-header").style.backgroundPosition = "50% 85%";
+}
+
