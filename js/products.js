@@ -38,6 +38,17 @@ const products = {
         "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
       }
     ],
+    "Lifts" : [
+        {
+        "id": "12",
+        "name": "Boom Lift",
+        "prices": [
+          { "label": "1 Day",  "amount": 50 },
+          { "label": "1 Week", "amount": 100 }
+        ],
+        "img": "imgs/Equipment.png"
+      },
+    ],
 
     "Hand Tools": [
       {

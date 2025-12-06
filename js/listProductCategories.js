@@ -53,7 +53,7 @@ if(category === "Equipment"){
 }
 else {
     document.querySelector(".category-title").textContent = "Event Categories";
-    document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-600x600.jpg)";
-    document.querySelector(".products-header").style.backgroundPosition = "50% 85%";
+    document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-1024x1024.png)";
+    document.querySelector(".products-header").style.backgroundPosition = "50% 70%";
 }
 
