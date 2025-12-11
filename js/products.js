@@ -17,7 +17,7 @@ const products = {
           { "label": "1 Day",  "amount": 50 },
           { "label": "1 Week", "amount": 100 }
         ],
-        "img": "imgs/Equipment.png"
+        "img": "./imgs/Equipment.png"
       },
       {
         "id": "3",
@@ -46,7 +46,7 @@ const products = {
           { "label": "1 Week", "amount": "1,360.00" },
           { "label": "4 Weeks", "amount": "3,400.00" }
         ],
-        "img": "imgs/products/equipment/u27.jpg",
+        "img": "./imgs/products/equipment/u27.jpg",
         "model": "KUBOTA U27-4",
         "desc" : "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
       },
@@ -59,7 +59,7 @@ const products = {
           { "label": "1 Day",  "amount": 50 },
           { "label": "1 Week", "amount": 100 }
         ],
-        "img": "imgs/Equipment.png",
+        "img": "./imgs/Equipment.png",
         "model": "Sky Jack",
         "desc": "This state of the art machine yada yada yada asfnojkisna  niaofsnfiopa ip jnaolfina i njhfioanhfipos ipoa niop nha  faionhjs foianhso inh oianhfoi nhoi nhola nhol nola nhofiansol "
       },
@@ -72,7 +72,7 @@ const products = {
           { "label": "1 Week", "amount": 580.00 },
           { "label": "4 Weeks", "amount": "1,400.00" }
         ],
-        "img": "imgs//products/equipment/IR185compressor.gif",
+        "img": "./imgs/products/equipment/IR185compressor.gif",
         "model": "Sky Jack",
         "desc": "This state of the art machine yada yada yada asfnojkisna  niaofsnfiopa ip jnaolfina i njhfioanhfipos ipoa niop nha  faionhjs foianhso inh oianhfoi nhoi nhola nhol nola nhofiansol "
       },
