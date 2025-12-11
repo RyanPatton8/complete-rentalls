@@ -51,21 +51,10 @@ const products = {
         "desc" : "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
       },
     ],
-    "CONCRETE MASONRY EQUIPMENT CONCRETE MASONRY EQUIPMENT" : [
-        {
-        "id": "12",
-        "name": "BoomLift",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/Equipment.png",
-        "model": "Sky Jack",
-        "desc": "This state of the art machine yada yada yada asfnojkisna  niaofsnfiopa ip jnaolfina i njhfioanhfipos ipoa niop nha  faionhjs foianhso inh oianhfoi nhoi nhola nhol nola nhofiansol "
-      },
-        {
+    "Drills" : [
+      {
         "id": "13",
-        "name": "Air Compressor 185 CFM (Diesel)",
+        "name": "skhiudbgnaoisdhnjgvi",
         "prices": [
           { "label": "1 Day",  "amount": 140.00 },
           { "label": "Weekend",  "amount": 210.00 },
@@ -73,9 +62,11 @@ const products = {
           { "label": "4 Weeks", "amount": "1,400.00" }
         ],
         "img": "./imgs/products/equipment/IR185compressor.gif",
-        "model": "Sky Jack",
+        "model": "Milwakee",
         "desc": "This state of the art machine yada yada yada asfnojkisna  niaofsnfiopa ip jnaolfina i njhfioanhfipos ipoa niop nha  faionhjs foianhso inh oianhfoi nhoi nhola nhol nola nhofiansol "
       },
+        
+        
     ],
 
     "Hand Tools": [

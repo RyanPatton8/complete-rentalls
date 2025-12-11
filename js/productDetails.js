@@ -19,8 +19,8 @@ function displayResults(product){
         displayString += `<h2>${product.model}</h2>`;
     }
     displayString += "</div>";
-    displayString += `<div class="flex-right">`;
-    displayString += `<div class="flex-down">`;
+    displayString += `<div class="product-details-middle">`;
+    
     if(product.prices){
         displayString += `<div class="price-holder">`;
         for (const price of product.prices) {
@@ -30,7 +30,12 @@ function displayResults(product){
         }
         displayString += "</div>";
     }
-    displayString += "</div>"
+    displayString += `<div class="name-and-model-mobile">`
+    displayString += `<h1>${product.name}</h1>`
+    if(product.model){
+        displayString += `<h2>${product.model}</h2>`;
+    }
+    displayString += "</div>";
     
     if(product.img){
         displayString += `<img src="${product.img}"></img>`
