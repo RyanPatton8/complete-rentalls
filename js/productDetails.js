@@ -13,30 +13,45 @@ function displayResults(product){
     let main = document.querySelector("#product-details");
     let displayString = "";
     displayString += `<div class="product-information">`;
-    if(product.img){
-        displayString += `<img src="${product.img}"></img>`
-    }
-    // <div>
-    displayString += `<h1>${product.name}</h1>`;
+    displayString += `<div class="name-and-model">`
+    displayString += `<h1>${product.name}</h1>`
     if(product.model){
         displayString += `<h2>${product.model}</h2>`;
     }
+    displayString += "</div>";
+    displayString += `<div class="flex-right">`;
+    displayString += `<div class="flex-down">`;
     if(product.prices){
         displayString += `<div class="price-holder">`;
         for (const price of product.prices) {
             displayString += `
-                <p class="price"><strong>${price.label}:</strong> $${price.amount}</p>
+            <div class="price"><strong>${price.label}:</strong> <p>$${price.amount}</p></div>
             `;
         }
         displayString += "</div>";
     }
+    displayString += "</div>"
+    
+    if(product.img){
+        displayString += `<img src="${product.img}"></img>`
+    }
     displayString += `</div>`;
     if (product.desc){
         displayString += `
+        <div class="description-holder">
             <h3 id="more-info">Additional Information</h3>
             <p>${product.desc}</p>
+        </div>
         `
     }
-    main.innerHTML = displayString;
+    main.innerHTML += displayString;
 }
 getItemById(productID);
+
+document.querySelector(".products-header").style.backgroundImage = "url(./imgs/store-front.jpg)";
+// if(category === "Equipment"){
+// }
+// else {
+//     document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-1024x1024.png)";
+//     document.querySelector(".products-header").style.backgroundPosition = "50% 70%";
+// }
