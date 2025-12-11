@@ -2,11 +2,7 @@ const urlParams = new URLSearchParams(window.location.search);
 const category = urlParams.get("category");
 const main = document.querySelector("#products-showcase");
 const equipmentObj = products[category];
-
-// Create the holder once in your HTML
-itemHolder = document.createElement("div");
-itemHolder.id = "item-holder";
-main.appendChild(itemHolder);
+const itemHolder = document.querySelector("#item-holder");
 
 function renderItems(entries) {
     itemHolder.innerHTML = "";

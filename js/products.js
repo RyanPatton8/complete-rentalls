@@ -41,12 +41,14 @@ const products = {
     "Lifts" : [
         {
         "id": "12",
-        "name": "Boom Lift",
+        "name": "BoomLift",
         "prices": [
           { "label": "1 Day",  "amount": 50 },
           { "label": "1 Week", "amount": 100 }
         ],
-        "img": "imgs/Equipment.png"
+        "img": "imgs/Equipment.png",
+        "model": "Sky Jack",
+        "desc": "This state of the art machine yada yada yada"
       },
     ],
 

@@ -455,6 +455,30 @@ iframe {
     transform: scale(1.05);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
 }
+#product-details {
+    width: 80%;
+    align-self: center;
+}
+#product-details h1 {
+    font-size: 45px;
+    font-weight: 450;
+    align-self: flex-end;
+}
+#product-details h2 {
+    font-size: 20px;
+    font-weight: 350;
+}
+#product-details .product-information {
+    display: flex;
+    width: 100%;
+}
+#product-details .product-information img {
+    min-width: 25%;
+    max-width: 50%;
+    height: auto;
+    background-color: #0e0e0e;
+    object-fit:cover;
+}
 /* Responsive Design */
 @media (max-width: 1500px){
     .info img, .info iframe {

@@ -6,10 +6,7 @@ const categoryItems = products[category];
 const subCategoryItems = categoryItems[subCategory];
 document.querySelector(".category-title").textContent = subCategory;
 
-const itemHolder = document.createElement("div");
-itemHolder.id = "item-holder";
-main.appendChild(itemHolder);
-
+const itemHolder = document.querySelector("#item-holder");
 function renderItems(items){
     itemHolder.innerHTML = ""; 
     for(i of items){
