@@ -241,7 +241,7 @@ iframe {
     background: linear-gradient(to right,#696969, #bdbcbc, #aaaaaa, #bdbcbc, #696969);
     border-top: 5px solid #696969;
     border-bottom: 5px solid #696969;
-    scroll-margin-top: 100px;
+    scroll-margin-top: 75px;
 }
 #what-we-offer {
     padding: 30px 0;
@@ -709,6 +709,10 @@ iframe {
         padding: 100px 0 75px 0;
         width: 100vw;
     }
+    #what-we-offer-holder {
+        padding: 50px 0 50px 0;
+        scroll-margin-top: 0px;
+    }
     #what-we-offer h2 {
         font-size: 35px;
     }
@@ -760,6 +764,9 @@ iframe {
         word-wrap: break-word;
         max-width: 50%;
         margin-left: 20px;
+    }
+    .products-header {
+        height: 45vh;
     }
 }
 
