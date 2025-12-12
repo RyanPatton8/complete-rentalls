@@ -1,42 +1,6 @@
 const products = {
   "Equipment": {
-    "Heavy Equipment": [
-      {
-        "id": "1",
-        "name": "Excavator",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
-      {
-        "id": "2",
-        "name": "Back Hoe",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/Equipment.png"
-      },
-      {
-        "id": "3",
-        "name": "Skid Steer",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/products/equipment/compressorp.jpg"
-      },
-      {
-        "id": "4",
-        "name": "Crane",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
+    "Excavators": [
       {
         "id": "13",
         "name": "Mini Excavator (3 Tonne) w/ Thumb",
@@ -48,13 +12,24 @@ const products = {
         ],
         "img": "./imgs/products/equipment/u27.jpg",
         "model": "KUBOTA U27-4",
-        "desc" : "is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+      },
+      {
+        "id": "14",
+        "name": "Mini Excavator (5 ton) with thumb",
+        "prices": [
+          { "label": "1 Day",  "amount": 470.00},
+          { "label": "Weekend",  "amount": 705.00 },
+          { "label": "1 Week", "amount": "1,880.00" },
+          { "label": "4 Weeks", "amount": "5,170.00" }
+        ],
+        "img": "./imgs/products/equipment/1_N_N_N_I_640x640.png",
+        "model": "Kubota U48-5",
       },
     ],
-    "Drills" : [
+    "Air Compressors & Accessories" : [
       {
         "id": "13",
-        "name": "skhiudbgnaoisdhnjgvi",
+        "name": "Air Compressor 185 CFM (Diesel)",
         "prices": [
           { "label": "1 Day",  "amount": 140.00 },
           { "label": "Weekend",  "amount": 210.00 },
@@ -62,24 +37,21 @@ const products = {
           { "label": "4 Weeks", "amount": "1,400.00" }
         ],
         "img": "./imgs/products/equipment/IR185compressor.gif",
-        "model": "Milwakee",
-        "desc": "This state of the art machine yada yada yada asfnojkisna  niaofsnfiopa ip jnaolfina i njhfioanhfipos ipoa niop nha  faionhjs foianhso inh oianhfoi nhoi nhola nhol nola nhofiansol "
+      },
+      {
+        "id": "3",
+        "name": "Air Compressor 6 CFM (Electric)",
+        "prices": [
+          { "label": "4 Hours",  "amount": 25.00 },
+          { "label": "1 Day",  "amount": 35.00 },
+          { "label": "Weekend", "amount": 52.50 },
+          { "label": "1 Week", "amount": 140.00 },
+          { "label": "4 Weeks", "amount": 350.00 },
+        ],
+        "img": "./imgs/products/equipment/compressorp.jpg"
       },
         
-        
     ],
-
-    "Hand Tools": [
-      {
-        "id": "4",
-        "name": "Shovel",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 100 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      }
-    ]
   },
 
   "Events": {
