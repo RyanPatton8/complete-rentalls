@@ -785,6 +785,9 @@ iframe {
     .products-header {
         height: 45vh;
     }
+    .category-title {
+        font-size: 40px;
+    }
 }
 
 
