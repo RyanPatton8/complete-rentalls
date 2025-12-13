@@ -700,6 +700,16 @@ iframe {
     }
 }
 @media (max-width: 680px) {
+    #product-details,
+    #product-details .product-information {
+        min-height: 0;
+    }
+    #product-details .product-information img {
+        aspect-ratio: auto;
+    }
+    .product-information .price {
+        font-size: 16px;
+    }
     .category-card {
         height: 200px;
         width: 90%;
