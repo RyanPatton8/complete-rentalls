@@ -24,6 +24,7 @@ const products = {
         ],
         "img": "./imgs/products/equipment/1_N_N_N_I_640x640.png",
         "model": "Kubota U48-5",
+        "desc": "Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,"
       },
     ],
     "Air Compressors & Accessories" : [

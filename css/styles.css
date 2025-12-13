@@ -616,8 +616,15 @@ iframe {
         display: flex;
         flex-direction: column;
         margin: 0 0 10px 0;
-        gap: 1.5rem;
     }
+     #product-details .name-and-model-mobile h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+     }
+     #product-details .name-and-model-mobile h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+     }
     .product-details-middle {
         flex-direction: column-reverse;
     }
