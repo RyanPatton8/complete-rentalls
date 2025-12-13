@@ -703,6 +703,7 @@ iframe {
     #product-details,
     #product-details .product-information {
         min-height: 0;
+        gap: 3px;
     }
     #product-details .product-information img {
         aspect-ratio: auto;
