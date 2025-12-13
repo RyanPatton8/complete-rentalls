@@ -33,7 +33,7 @@ searchBar.addEventListener("input", (event) => {
     const filtered = Object.entries(equipmentObj).filter(
         ([subCategoryName, items]) => {
             const subNorm = normalize(subCategoryName);
-            if (subNorm.startsWith(term)) {
+            if (subNorm.includes(term)) {
                 return true;
             }
             return items.some(item => normalize(item.name).includes(term));

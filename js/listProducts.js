@@ -27,7 +27,7 @@ const searchBar = document.querySelector("#search");
 
 searchBar.addEventListener("input", (event) => {
     const term = event.target.value.toLowerCase().replace(/\s/g, '').trim();
-    const filtered = subCategoryItems.filter(p => p.name.toLowerCase().replace(/\s/g, '').startsWith(term));
+    const filtered = subCategoryItems.filter(p => p.name.toLowerCase().replace(/\s/g, '').includes(term));
   renderItems(filtered);
 });
 
