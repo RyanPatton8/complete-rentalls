@@ -463,6 +463,7 @@ iframe {
 .item-card p {
     font-weight: 550;
     text-align: center;
+    flex: auto;
 }
 .item-card:hover {
     transform: scale(1.05);
