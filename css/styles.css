@@ -79,6 +79,7 @@ main {
 
 #main-footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #0e0e0e;
@@ -214,22 +215,17 @@ iframe {
     width: 50%;
 }
 .info-section {
-    /* background: #ffffff; */
     padding: 30px 40px;
     max-width: 80%;
     width: 100%;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-     /* box-shadow: 0 4px 18px rgba(0, 0, 0, .55); */
 }
 .info-section h2 {
     margin: 0 0 10px 0;
     font-size: 80px;
     font-weight: 700;
-    /* text-decoration: underline;
-    text-decoration-color: #9c161a;
-    text-decoration-thickness: 5px; */
 }
 .info-section a, .info-section p {
     text-decoration: none;
@@ -237,10 +233,30 @@ iframe {
     font-size: 20px;
     font-weight: 400;
 }
-.info-section a:hover{
-    text-shadow: 0px 0px 20px #fefefe,
-    0px 0px 40px #fefefe,
-    0px 0px 60px #fefefe;
+.info-section a {
+    position: relative;          /* make ::after position relative to the link */
+    display: inline-block;       /* so the underline matches text width */
+    text-decoration: none;
+    color: #fefefe;
+    transition: color 0.3s ease;
+}
+/* invisible underline by default */
+.info-section a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0px;                /* distance under the text */
+    width: 100%;
+    height: 2px;
+    background: #fefefe;         /* or any color you want */
+    transform: scaleX(0);        /* start hidden */
+    transform-origin: left center;
+    transition: transform 0.3s ease;
+}
+/* animate left → right on hover/focus */
+.info-section a:hover::after,
+.info-section a:focus::after {
+    transform: scaleX(1);
 }
 .section-holder {
     display: flex;
@@ -430,12 +446,17 @@ iframe {
     border-radius: 5px;
     padding: 15px;
     font-size: 15px;
-    margin: 15px 0 70px 0;
+    margin: 15px 0 15px 0;
 }
 #products-showcase{
     display: flex;
     justify-content: start;
     align-items: center;
+}
+.products-header a {
+    color: #bdbcbc;
+    text-decoration: none;
+    margin: 0 0 35px 0;
 }
 .item-card {
     padding: 10px;
@@ -569,13 +590,43 @@ iframe {
   color: #555;
   line-height: 1.5;
 }
+.product-information a {
+    color: #555;
+    text-decoration: none;
+}
 .name-and-model-mobile {
     display: none;
 }
-#main-footer a {
+#main-footer .footer-contact a, .socials a{
     text-decoration: none;
     color: #fefefe;
 }
+.footer-contact{
+    display: flex;
+}
+.socials {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.socials a{
+  font-size: 40px;
+  display: inline-block;              /* so transform behaves nicely */
+  transition: transform .5s ease;    /* transition the thing you change */
+}
+
+.socials a:hover{
+  transform: scale(1.1);
+}
+.socials a i {
+  display: block;
+}
+.mobile-back {
+    display: none;
+    margin: 0 0 15px 0;
+}
+
+/* .socials i { display: block; } */
 /* Responsive Design */
 @media (max-width: 1500px){
     .info img, .info iframe {
@@ -634,6 +685,9 @@ iframe {
         flex-direction: column;
         margin: 0 0 10px 0;
     }
+    .mobile-back {
+        display: block;
+    }
      #product-details .name-and-model-mobile h1 {
         font-size: 30px;
         margin-bottom: 10px;
@@ -654,7 +708,7 @@ iframe {
     }
     #product-details .product-information{
         box-shadow:none;
-        margin: 50px 0;
+        margin: 30px 0;
         padding: 0;
     }
 }
@@ -705,8 +759,11 @@ iframe {
     #events-card::before, #equipment-card::before{
         filter: blur(0px);
     }
-    #main-footer {
+    .footer-contact {
         flex-direction: column;
+    }
+    .footer-contact {
+
     }
     #main-footer a {
         text-decoration: none;

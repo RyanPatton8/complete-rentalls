@@ -14,6 +14,7 @@ function displayResults(product){
     let displayString = "";
     displayString += `<div class="product-information">`;
     displayString += `<div class="name-and-model">`
+    displayString += `<a href="./products.html?category=${encodeURIComponent(category)}&sub-category=${encodeURIComponent(subCategory)}">&lsaquo; Back</a>`
     displayString += `<h1>${product.name}</h1>`
     if(product.model){
         displayString += `<h2>${product.model}</h2>`;
@@ -40,6 +41,7 @@ function displayResults(product){
     if(product.img){
         displayString += `<img src="${product.img}"></img>`
     }
+    displayString += `<a href="./products.html?category=${encodeURIComponent(category)}&sub-category=${encodeURIComponent(subCategory)}" class="mobile-back">&lsaquo; Back</a>`
     displayString += `</div>`;
     if (product.desc){
         displayString += `
@@ -54,9 +56,3 @@ function displayResults(product){
 getItemById(productID);
 
 document.querySelector(".products-header").style.backgroundImage = "url(./imgs/store-front.jpg)";
-// if(category === "Equipment"){
-// }
-// else {
-//     document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-1024x1024.png)";
-//     document.querySelector(".products-header").style.backgroundPosition = "50% 70%";
-// }

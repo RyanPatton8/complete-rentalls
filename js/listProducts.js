@@ -38,3 +38,4 @@ else {
     document.querySelector(".products-header").style.backgroundImage = "url(./imgs/40-x-80-water-pic-1024x1024.png)";
     document.querySelector(".products-header").style.backgroundPosition = "50% 70%";
 }
+document.querySelector(".products-header a").href = `./product-categories.html?category=${encodeURIComponent(category)}`

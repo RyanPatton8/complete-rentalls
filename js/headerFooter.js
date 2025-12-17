@@ -20,8 +20,25 @@ mainHeader.innerHTML = `
 `
 
 mainFooter.innerHTML = `
-        <a href="https://www.google.com/maps/search/?api=1&query=77%20Memorial%20Avenue%2C%20Orillia%2C%20Ontario%20Canada%2C%20L3V%205W9" target="_blank" rel="noopener noreferrer">77 Memorial Avenue, Orillia, Ontario Canada, L3V 5W9</a>
-        <a href="tel:+17053277368">705-327-RENT</a>
+        <div class="footer-contact">
+            <a href="https://www.google.com/maps/search/?api=1&query=77%20Memorial%20Avenue%2C%20Orillia%2C%20Ontario%20Canada%2C%20L3V%205W9" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i> 77 Memorial Avenue, Orillia, Ontario Canada, L3V 5W9</a>
+            <a href="tel:+17053277368"><i class="fa-solid fa-phone"></i> 705-327-RENT</a>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/completerentallsorillia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/CompleteRentAllsOrillia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+        </div>
 `
 
 // Mobile Menu Toggle
