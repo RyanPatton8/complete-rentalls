@@ -1,0 +1,2 @@
+document.querySelector("#equipment-card .category-count").textContent = `${Object.entries(products["Equipment"]).length} Categories`
+document.querySelector("#events-card .category-count").textContent = `${Object.entries(products["Events"]).length} Categories`
