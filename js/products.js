@@ -46,7 +46,7 @@ const products = {
         { "label": "1 Day",  "amount": "15.00"},
         { "label": "Weekend",  "amount": "22.50" },
         { "label": "1 Week", "amount": "60.00" },
-        { "label": "4 Weeks", "amount": "180" }
+        { "label": "4 Weeks", "amount": "180.00" }
       ],
       "img": "./imgs/products/equipment/Augers/clam.jpg",
     },
@@ -54,6 +54,7 @@ const products = {
       "id": "77",
       "name": "Power Post Hole Auger – 1 Man",
       "prices": [
+        { "label": "4 hour", "amount": "85.00" },
         { "label": "1 Day",  "amount": "110.00"},
         { "label": "Weekend",  "amount": "165.00" },
         { "label": "1 Week", "amount": "440.00" },
@@ -65,6 +66,17 @@ const products = {
           <li>8″, 10″ or 12″ bit avaiable</li>
           <li>Extension – $5.00 (if hole is 4' deep)</li>
         </ul>`
+    },
+    {
+      "id": "78",
+      "name": "Stake Driver",
+      "prices": [
+        { "label": "1 Day",  "amount": "90.00"},
+        { "label": "Weekend",  "amount": "135.00" },
+        { "label": "1 Week", "amount": "360.00" },
+        { "label": "4 Weeks", "amount": "1080.00" }
+      ],
+      "img": "./imgs/products/equipment/Augers/Rhino-600x600.jpg",
     },
   ],
     "Air Compressors & Accessories" : [
@@ -80,6 +92,18 @@ const products = {
         "img": "./imgs/products/equipment/Air Compressors & Accessories/IR185compressor.gif",
       },
       {
+        "id": "16",
+        "name": "Air Breaker Hammer 60lbs",
+        "prices": [
+          { "label": "4 Hours",  "amount": 30.00 },
+          { "label": "1 Day",  "amount": 40.00 },
+          { "label": "Weekend",  "amount": 60.00 },
+          { "label": "1 Week", "amount": 160.00 },
+          { "label": "4 Weeks", "amount": "480.00" }
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/cbreaker.jpg",
+      },
+      {
         "id": "3",
         "name": "Air Compressor 6 CFM (Electric)",
         "prices": [
@@ -90,6 +114,84 @@ const products = {
           { "label": "4 Weeks", "amount": 350.00 },
         ],
         "img": "./imgs/products/equipment/Air Compressors & Accessories/compressorp.jpg"
+      },
+      {
+        "id": "67",
+        "name": "Air Compressor Gas 12.5 CFM (Gas)",
+        "prices": [
+          { "label": "4 Hours",  "amount": 40.00 },
+          { "label": "1 Day",  "amount": 50.00 },
+          { "label": "Weekend", "amount": 75.00 },
+          { "label": "1 Week", "amount": 200.00 },
+          { "label": "4 Weeks", "amount": 500.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/compressor.jpg"
+      },
+      {
+        "id": "68",
+        "name": "Air Hose 3/4″ x 50′",
+        "prices": [
+          { "label": "1 Day",  "amount": 10.00 },
+          { "label": "Weekend", "amount": 15.00 },
+          { "label": "1 Week", "amount": 40.00 },
+          { "label": "4 Weeks", "amount": 120.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/chose.png"
+      },
+      {
+        "id": "69",
+        "name": "Air Hose 3/8″ x 50′",
+        "prices": [
+          { "label": "1 Day",  "amount": 8.00 },
+          { "label": "Weekend", "amount": 12.00 },
+          { "label": "1 Week", "amount": 32.00 },
+          { "label": "4 Weeks", "amount": 96.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/choses.jpg"
+      },
+      {
+        "id": "70",
+        "name": "Asphalt Cutter",
+        "prices": [
+          { "label": "1 Day",  "amount": 12.00 },
+          { "label": "Weekend", "amount": 18.00 },
+          { "label": "1 Week", "amount": 48.00 },
+          { "label": "4 Weeks", "amount": 144.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/acutter.jpg"
+      },
+      {
+        "id": "71",
+        "name": "Clay Spade 1-1/8″",
+        "prices": [
+          { "label": "1 Day",  "amount": 8.00 },
+          { "label": "Weekend", "amount": 16.00 },
+          { "label": "1 Week", "amount": 32.00 },
+          { "label": "4 Weeks", "amount": 96.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/clayspd.jpg"
+      },
+      {
+        "id": "72",
+        "name": "Chisel Points",
+        "prices": [
+          { "label": "1 Day",  "amount": 8.00 },
+          { "label": "Weekend", "amount": 16.00 },
+          { "label": "1 Week", "amount": 32.00 },
+          { "label": "4 Weeks", "amount": 96.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/chissel.jpg"
+      },
+      {
+        "id": "73",
+        "name": "Frost Wedge 1-1/8″",
+        "prices": [
+          { "label": "1 Day",  "amount": 12.00 },
+          { "label": "Weekend", "amount": 18.00 },
+          { "label": "1 Week", "amount": 48.00 },
+          { "label": "4 Weeks", "amount": 144.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/cwedge.jpg"
       },
     ], 
     "Cleaning": [
@@ -109,6 +211,7 @@ const products = {
       "id": "14",
       "name": "Magnet Sweeper",
       "prices": [
+        { "label": "4 hour", "amount": "20.00" },
         { "label": "1 Day",  "amount": "25.00"},
         { "label": "Weekend",  "amount": "37.50" },
         { "label": "1 Week", "amount": "100.00" },
