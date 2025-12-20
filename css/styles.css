@@ -454,9 +454,13 @@ iframe {
     align-items: center;
 }
 .products-header a {
-    color: #bdbcbc;
+    color: #6e6d6d;
     text-decoration: none;
     margin: 0 0 35px 0;
+    transition: color 200ms ease;
+}
+.products-header a:hover {
+    color: #949494;
 }
 .item-card {
     padding: 10px;
