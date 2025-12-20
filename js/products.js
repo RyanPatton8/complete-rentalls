@@ -1,3 +1,19 @@
+// "Category": [
+//     {
+//       "id": "14",
+//       "name": "ITEM",
+//       "prices": [
+//         { "label": "1 Day",  "amount": "DOLLARS"},
+//         { "label": "Weekend",  "amount": "DOLLARS" },
+//         { "label": "1 Week", "amount": "1,880.00" },
+//         { "label": "4 Weeks", "amount": "5,170.00" }
+//       ],
+//       "img": "filepath",
+//       "model": "ITEM MODEL",
+//       "desc": "ADDITIONAL DESCRIPTION"
+//     },
+//   ],
+  
 const products = {
   "Equipment": {
     "Excavators": [
@@ -10,7 +26,7 @@ const products = {
           { "label": "1 Week", "amount": "1,360.00" },
           { "label": "4 Weeks", "amount": "3,400.00" }
         ],
-        "img": "./imgs/products/equipment/u27.jpg",
+        "img": "./imgs/products/equipment/Excavators/u27.jpg",
         "model": "KUBOTA U27-4",
       },
       {
@@ -22,7 +38,7 @@ const products = {
           { "label": "1 Week", "amount": "1,880.00" },
           { "label": "4 Weeks", "amount": "5,170.00" }
         ],
-        "img": "./imgs/products/equipment/1_N_N_N_I_640x640.png",
+        "img": "./imgs/products/equipment/Excavators/1_N_N_N_I_640x640.png",
         "model": "Kubota U48-5",
         "desc": "Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,"
       },
@@ -37,7 +53,7 @@ const products = {
           { "label": "1 Week", "amount": 580.00 },
           { "label": "4 Weeks", "amount": "1,400.00" }
         ],
-        "img": "./imgs/products/equipment/IR185compressor.gif",
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/IR185compressor.gif",
       },
       {
         "id": "3",
@@ -49,70 +65,12 @@ const products = {
           { "label": "1 Week", "amount": 140.00 },
           { "label": "4 Weeks", "amount": 350.00 },
         ],
-        "img": "./imgs/products/equipment/compressorp.jpg"
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/compressorp.jpg"
       },
-        
-    ],
+    ], 
   },
 
   "Events": {
-    "Tables and Chairs": [
-      {
-        "id": "5",
-        "name": "Table",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
-      {
-        "id": "6",
-        "name": "Chair",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      }
-    ],
-    "Silver Ware": [
-      {
-        "id": "7",
-        "name": "Fork",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
-      {
-        "id": "8",
-        "name": "Knife",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
-      {
-        "id": "9",
-        "name": "Knife",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      },
-      {
-        "id": "10",
-        "name": "Knife",
-        "prices": [
-          { "label": "1 Day",  "amount": 50 },
-          { "label": "1 Week", "amount": 150 }
-        ],
-        "img": "./imgs/products/equipment/airhose-3.8x50.jpg"
-      }
-    ]
+
   }
 };
