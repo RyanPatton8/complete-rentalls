@@ -4,18 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Default title/description (JS should overwrite per subcategory) -->
-  <title>Rental Products | Complete Rent-Alls</title>
-  <meta name="description" content="Browse rental products at Complete Rent-Alls in Orillia, Ontario." />
+  <title>Event & Party Rental Categories in Orillia, ON | Complete Rent-Alls</title>
+  <meta name="description" content="Browse event and party rental categories at Complete Rent-Alls in Orillia, Ontario. Tents, canopies, and more." />
   <meta name="robots" content="index,follow" />
 
-  <!-- Canonical: with query params, this should be set by JS (best) -->
-  <link rel="canonical" href="https://YOUR-DOMAIN-HERE/products.html" />
+  <link rel="canonical" href="https://YOUR-DOMAIN-HERE/events-categories.html" />
 
-  <meta property="og:title" content="Rental Products | Complete Rent-Alls" />
-  <meta property="og:description" content="Browse rental products in Orillia, ON." />
-  <meta property="og:image" content="https://YOUR-DOMAIN-HERE/imgs/store-front.jpg" />
-  <meta property="og:url" content="https://YOUR-DOMAIN-HERE/products.html" />
+  <meta property="og:title" content="Event & Party Rental Categories | Complete Rent-Alls" />
+  <meta property="og:description" content="Browse event and party rental categories in Orillia, ON." />
+  <meta property="og:image" content="https://YOUR-DOMAIN-HERE/imgs/40-x-80-water-pic-1024x1024.png" />
+  <meta property="og:url" content="https://YOUR-DOMAIN-HERE/events-categories.html" />
   <meta property="og:type" content="website" />
   <meta name="twitter:card" content="summary_large_image" />
 
@@ -26,7 +24,18 @@
 
   <script src="./js/headerFooter.js" defer></script>
   <script src="./js/products.js"></script>
-  <script src="./js/listProducts.js" defer></script>
+  <script src="./js/listEventsCategories.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://YOUR-DOMAIN-HERE/index.html" },
+      { "@type": "ListItem", "position": 2, "name": "Events", "item": "https://YOUR-DOMAIN-HERE/events-categories.html" }
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -49,8 +58,8 @@
   <main id="products-showcase">
     <div class="products-header">
       <div class="mask">
-        <h1 class="category-title">Equipment or Event Items</h1>
-        <input type="search" name="q" id="search" placeholder="Search products" />
+        <h1 class="category-title">Event Categories</h1>
+        <input type="search" name="q" id="search" placeholder="Search event categories" />
         <a href="index.html">&lsaquo; Back</a>
       </div>
     </div>

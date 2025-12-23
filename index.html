@@ -4,7 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Rent-Alls</title>
+    <title>Equipment & Party Rentals in Orillia, ON | Complete Rent-Alls</title>
+    <link rel="canonical" href="https://YOUR-DOMAIN-HERE/">
+    <meta name="description"
+        content="Complete Rent-Alls provides equipment rentals and party rentals in Orillia, Ontario. Serving the community since 1968 with clean, reliable equipment and event supplies." />
+    <meta name="robots" content="index,follow,max-image-preview:large" />
+    <meta property="og:title" content="Equipment & Party Rentals in Orillia | Complete Rent-Alls">
+    <meta property="og:description" content="Serving Orillia since 1968 with reliable equipment and party rentals.">
+    <meta property="og:image" content="https://YOUR-DOMAIN/imgs/store-front.jpg">
+    <meta property="og:type" content="website">
     <link rel="icon" href="./imgs/main-logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,10 +24,73 @@
     <script src="./js/products.js"></script>
     <script src="./js/headerFooter.js" defer></script>
     <script src="./js/index.js" defer></script>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Complete Rent-Alls",
+  "telephone": "+1-705-327-7368",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "77 Memorial Avenue",
+    "addressLocality": "Orillia",
+    "addressRegion": "ON",
+    "postalCode": "L3V 5W9",
+    "addressCountry": "CA"
+  },
+  "areaServed": "Orillia, ON",
+  "url": "https://YOUR-DOMAIN-HERE/",
+  "openingHoursSpecification": [
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+    "opens": "07:30",
+    "closes": "17:30"
+  },
+  {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Saturday",
+    "opens": "08:00",
+    "closes": "17:00"
+  }
+]
+}
+</script>
+
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://YOUR-DOMAIN-HERE/index.html"
+      }
+    ]
+  }
+  </script>
+
 </head>
 
 <body>
-    <header id="main-header"></header>
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="index.html#"><img src="./imgs/main-logo.png" alt="Complete Rent-Alls Logo" class="header-logo" />
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html#">Home</a></li>
+                    <li><a href="equipment-categories.html">Equipment</a></li>
+                    <li><a href="events-categories.html">Events</a></li>
+                    <li><a href="index.html#about-us-holder" class="btn">About Us</a></li>
+                    <li><a href="index.html#contact-us-holder" class="btn">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">&#9776;</div>
+        </div>
+    </header>
     <section class="hero">
         <div class="hero-inner mask">
             <div class="hero-main">
@@ -27,7 +98,8 @@
                     Rentals for all of <br>your projects and parties
                 </h1>
                 <p class="hero-subtitle">
-                    Serving Orillia since 1968 with clean, well-maintained equipment and party rentals. Call or come in store to
+                    Serving Orillia since 1968 with clean, well-maintained equipment and party rentals. Call or come in
+                    store to
                     check availability and book your rental.
                 </p>
                 <div class="hero-cta-group">
@@ -46,13 +118,13 @@
             <section id="what-we-offer">
                 <h2>WHAT ARE YOU LOOKING FOR?</h2>
                 <div id="category-card-holder">
-                    <a class="category-card" id="equipment-card" href="product-categories.html?category=Equipment">
+                    <a class="category-card" id="equipment-card" href="equipment-categories.html">
                         <div class="category-card-mask">
                             <p class="category-title">Equipment</p>
                             <p class="category-count">36 Categories</p>
                         </div>
                     </a>
-                    <a class="category-card" id="events-card" href="product-categories.html?category=Events">
+                    <a class="category-card" id="events-card" href="events-categories.html">
                         <div class="category-card-mask">
                             <p class="category-title">Events</p>
                             <p class="category-count">12 Categories</p>
@@ -75,7 +147,8 @@
                         need for all your special events. View and print off our Party list and be sure to fax it or
                         bring it in to plan your next event, after the selections have been made the Complete Rent Alls
                         Team will deliver the products. Come see us at 77 Memorial Ave for all your rental needs.</p>
-                    <img src="./imgs/store-front.jpg"></img>
+                    <img src="./imgs/store-front.jpg" loading="lazy"
+                        alt="Complete Rent-Alls store front 77 Memorial Avenue, Orillia, Ontario Canada, L3V 5W9">
                 </div>
             </section>
         </div>
@@ -83,13 +156,15 @@
             <section class="info-section" id="contact-us-section">
                 <h2 id="contact-us">CONTACT US</h2>
                 <div class="info">
-                    <iframe style="border: 0;"
+                    <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2840.7350175539464!2d-79.42898388453686!3d44.60244489854834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d2aa94819396d9b%3A0xb76f8e527e49e273!2s77+Memorial+Ave%2C+Orillia%2C+ON+L3V+5W9!5e0!3m2!1sen!2sca!4v1468509329147"
-                        width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+                        width="600" height="450" allowfullscreen="allowfullscreen"></iframe>
                     <div id="contact">
                         <div>
                             <h3>Location</h3>
-                            <a href="https://www.google.com/maps/search/?api=1&query=77%20Memorial%20Avenue%2C%20Orillia%2C%20Ontario%20Canada%2C%20L3V%205W9" target="_blank" rel="noopener noreferrer">77 Memorial Avenue, Orillia, Ontario Canada, L3V 5W9</a>
+                            <a href="https://www.google.com/maps/search/?api=1&query=77%20Memorial%20Avenue%2C%20Orillia%2C%20Ontario%20Canada%2C%20L3V%205W9"
+                                target="_blank" rel="noopener noreferrer">77 Memorial Avenue, Orillia, Ontario Canada,
+                                L3V 5W9</a>
                         </div>
                         <div>
                             <h3>Phone Number</h3>
@@ -104,10 +179,27 @@
                     </div>
                 </div>
             </section>
-
+        </div>
     </main>
-    </div>
-    <footer id="main-footer"></footer>
+    <footer id="main-footer">
+        <div class="footer-contact">
+            <a href="https://www.google.com/maps/search/?api=1&query=77%20Memorial%20Avenue%2C%20Orillia%2C%20Ontario%20Canada%2C%20L3V%205W9"
+                target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-location-dot"></i> 77 Memorial Avenue,
+                Orillia, Ontario Canada, L3V 5W9</a>
+            <a href="tel:+17053277368"><i class="fa-solid fa-phone"></i> 705-327-RENT</a>
+        </div>
+        <div class="socials">
+            <a href="https://www.instagram.com/completerentallsorillia/" target="_blank" rel="noopener noreferrer"
+                aria-label="Instagram">
+                <i class="fa-brands fa-square-instagram"></i>
+            </a>
+
+            <a href="https://www.facebook.com/CompleteRentAllsOrillia/" target="_blank" rel="noopener noreferrer"
+                aria-label="Facebook">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 
 </html>
