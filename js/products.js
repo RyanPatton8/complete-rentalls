@@ -193,7 +193,55 @@ const products = {
         ],
         "img": "./imgs/products/equipment/Air Compressors & Accessories/cwedge.jpg"
       },
-    ], 
+      {
+        "id": "74",
+        "name": "Ground Rod Driver",
+        "prices": [
+          { "label": "1 Day",  "amount": 9.00 },
+          { "label": "Weekend", "amount": 13.50 },
+          { "label": "4 Hours", "amount": 7.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/cground-rod.jpg"
+      },
+      {
+        "id": "65",
+        "name": "Rock Drill",
+        "prices": [
+          { "label": "4 Hours",  "amount": 50.00 },
+          { "label": "1 Day",  "amount": 70.00 },
+          { "label": "Weekend", "amount": 105.00 },
+          { "label": "1 Week", "amount": 280.00 },
+          { "label": "4 Weeks", "amount": 840.00 },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/crockdrill.png"
+      },
+      {
+        "id": "66",
+        "name": "Rock Drill Rod",
+        "prices": [
+          { "label": "1 Day",  "amount": 14.00 },
+          { "label": "Weekend", "amount": 21.00 },
+          { "label": "1 Week", "amount": 56.00 },
+          { "label": "4 Weeks", "amount": "192.00" },
+        ],
+        "img": "./imgs/products/equipment/Air Compressors & Accessories/csteel.jpg"
+      },
+      
+    ],
+    "Automotive Tools": [
+    {
+      "id": "1",
+      "name": "Axel Stands - Pair",
+      "prices": [
+        { "label": "4 Hour",  "amount": "9.00"},
+        { "label": "1 Day",  "amount": "14.00"},
+        { "label": "Weekend",  "amount": "21.00" },
+        { "label": "1 Week", "amount": "56.00" },
+        { "label": "4 Weeks", "amount": "168.00" }
+      ],
+      "img": "./imgs/products/equipment/Automotive Tools/bstand.jpg",
+    },
+  ], 
     "Cleaning": [
     {
       "id": "67",
@@ -218,6 +266,18 @@ const products = {
         { "label": "4 Weeks", "amount": "300.00" }
       ],
       "img": "./imgs/products/equipment/cleaning/bmagsweeper-600x600.jpg",
+    },
+    {
+      "id": "15",
+      "name": "Wet & Dry Vacuum",
+      "prices": [
+        { "label": "4 hour", "amount": "20.00" },
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/cleaning/stihl-vaccum.png",
     },
   ],
     "Excavators": [
