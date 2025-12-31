@@ -474,6 +474,161 @@ const products = {
       "img": "./imgs/products/equipment/Compaction/ahandtamper.jpg",
     },
   ],
+  "Concrete Masonry Equipment": [
+    {
+      "id": "1",
+      "name": "Bull Float",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/concrete/abullfloat.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Cement Mixer – Electric",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "400.00" }
+      ],
+      "img": "./imgs/products/equipment/concrete/amixer.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Concrete Power Trowel 36″",
+      "prices": [
+        { "label": "1 Day",  "amount": "105.00"},
+        { "label": "Weekend",  "amount": "157.50" },
+        { "label": "1 Week", "amount": "420.00" },
+        { "label": "4 Weeks", "amount": "1260.00" }
+      ],
+      "img": "./imgs/products/equipment/concrete/atrowell.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Concrete Vibrator",
+      "prices": [
+        { "label": "4 Hour",  "amount": "45.00"},
+        { "label": "1 Day",  "amount": "55.00"},
+        { "label": "Weekend",  "amount": "77.50" },
+        { "label": "1 Week", "amount": "220.00" },
+        { "label": "4 Weeks", "amount": "660.00" }
+      ],
+      "img": "./imgs/products/equipment/concrete/vibrator.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Wheelbarrow 6 Cu. Ft.",
+      "prices": [
+        { "label": "1 Day",  "amount": "16.00"},
+        { "label": "Weekend",  "amount": "24.00" },
+        { "label": "1 Week", "amount": "64.00" },
+        { "label": "4 Weeks", "amount": "128.00" }
+      ],
+      "img": "./imgs/products/equipment/concrete/barrow.jpg",
+    },
+    
+  ],
+  "Conveyors": [
+    {
+      "id": "1",
+      "name": "Conveyor 20 Ft.",
+      "prices": [
+        { "label": "1 Day",  "amount": "190.00"},
+        { "label": "Weekend",  "amount": "285.00" },
+        { "label": "1 Week", "amount": "760.00" },
+        { "label": "4 Weeks", "amount": "2280.00" }
+      ],
+      "img": "./imgs/products/equipment/conveyor/aconveyer.jpg",
+    },
+    
+  ],
+ "Cutters & Shears": [
+    {
+      "id": "1",
+      "name": "Aluminum Brake",
+      "prices": [
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/abrake.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Bolt Cutter 18″ – 36″",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/abolt.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Ceramic Tile Cutter",
+      "prices": [
+        { "label": "4 Hour",  "amount": "12.00"},
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/atilecutt.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Floor Tile Cutter/Asphalt Cutter",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/atilecutter.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Laminate Floor Cutter",
+      "prices": [
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/acutter.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Nibbler 14 Gauge",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/anibbler.png",
+    },
+    {
+      "id": "7",
+      "name": "Re-Rod Bender 5/8″",
+      "prices": [
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/Cutters/anibbler.png",
+    },
+  ],
     "Excavators": [
       {
         "id": "13",
