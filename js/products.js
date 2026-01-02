@@ -629,10 +629,237 @@ const products = {
       "img": "./imgs/products/equipment/Cutters/anibbler.png",
     },
   ],
+  "Drills and Bits": [
+    {
+      "id": "1",
+      "name": "Drill 1/2″ Right Angle",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "200.00" }
+      ],
+      "img": "./imgs/products/equipment/drills/right.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Drill 3/4″ Electric",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "320.00" }
+      ],
+      "img": "./imgs/products/equipment/drills/6drill.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Magnetic Drill 3/4″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "60.00"},
+        { "label": "1 Day",  "amount": "75.00"},
+        { "label": "Weekend",  "amount": "112.50" },
+        { "label": "1 Week", "amount": "300.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/drills/6magdrill.jpg",
+    },
+  ],
+  "Drywall": [
+    {
+      "id": "1",
+      "name": "Drywall Panel Lift 11′",
+      "prices": [
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "400.00" }
+      ],
+      "img": "./imgs/products/equipment/drywall/6drywalllift.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Drywall Panel Lift 15′",
+      "prices": [
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/drywall/6drywalllift.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Plaster Mixing Paddle",
+      "prices": [
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "24.00" },
+        { "label": "4 Weeks", "amount": "48.00" }
+      ],
+      "img": "./imgs/products/equipment/drywall/mix.png",
+    },
+  ],
+  "Electric Hammer Drills": [
+    {
+      "id": "1",
+      "name": "Bosch Impact Drill 5/8″ SDS",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/3bulldog.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Bosch Magnum Breaker",
+      "prices": [
+        { "label": "4 Hour",  "amount": "60.00"},
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/brute.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Demolition Hammer 22.5LB",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/3demoham.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Demolition Hanmmer 12.5LB",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/3demohamm.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Drill Impact 1/2″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/3hitachi.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Hammer Drill SDS MAX Large",
+      "prices": [
+        { "label": "4 Hour",  "amount": "45.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/hammerd/3hamme.jpg",
+    },
+  ],
+  "Electric Tools": [
+    {
+      "id": "1",
+      "name": "Extension Cord 50′ x 12 GA",
+      "prices": [
+        { "label": "1 Day",  "amount": "1.00"},
+        { "label": "Weekend",  "amount": "1.50" },
+        { "label": "1 Week", "amount": "4.00" },
+        { "label": "4 Weeks", "amount": "12.00" }
+      ],
+      "img": "./imgs/products/equipment/electric tools/cord.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Router",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "45.00"},
+        { "label": "Weekend",  "amount": "67.50" },
+        { "label": "1 Week", "amount": "180.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/electric tools/6router.jpg",
+    },
+  ],
     "Excavators": [
       {
-        "id": "13",
-        "name": "Mini Excavator (3 Tonne) w/ Thumb",
+        "id": "1",
+        "name": "Auger Attachment (mini skid steer 9″-12″-24″)",
+        "prices": [
+          { "label": "1 Day",  "amount": "150.00" },
+          { "label": "Weekend",  "amount": "225.00" },
+          { "label": "1 Week", "amount": "600.00" },
+          { "label": "4 Weeks", "amount": "1800.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/stand-on-skid-auger.jpeg",
+      },
+      {
+        "id": "2",
+        "name": "Auger Attachment (skid steer 12″-24″)",
+        "prices": [
+          { "label": "1 Day",  "amount": "150.00" },
+          { "label": "Weekend",  "amount": "225.00" },
+          { "label": "1 Week", "amount": "600.00" },
+          { "label": "4 Weeks", "amount": "1800.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/AUGER.png",
+      },
+      {
+        "id": "3",
+        "name": "Hydraulic Breaker",
+        "prices": [
+          { "label": "1 Day",  "amount": "360.00" },
+          { "label": "Weekend",  "amount": "540.00" },
+          { "label": "1 Week", "amount": "1080.00" },
+          { "label": "4 Weeks", "amount": "3240.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/BREAKER.jpg",
+      },
+      {
+        "id": "4",
+        "name": "Mini Backhoe – Kubota bx23S",
+        "prices": [
+          { "label": "1 Day",  "amount": "270.00" },
+          { "label": "Weekend",  "amount": "405.00" },
+          { "label": "1 Week", "amount": "1080.00" },
+          { "label": "4 Weeks", "amount": "2700.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/Mini-Backhoe.jpg",
+      },
+      {
+        "id": "5",
+        "name": "Mini Excavator (2 ton)",
+        "prices": [
+          { "label": "1 Day",  "amount": "270.00" },
+          { "label": "Weekend",  "amount": "405.00" },
+          { "label": "1 Week", "amount": "1080.00" },
+          { "label": "4 Weeks", "amount": "3240.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/Kubota.jpg",
+      },
+      {
+        "id": "6",
+        "name": "Mini Excavator (3 Ton) w/ Thumb",
         "prices": [
           { "label": "1 Day",  "amount": "340.00" },
           { "label": "Weekend",  "amount": "510.00" },
@@ -643,7 +870,19 @@ const products = {
         "model": "KUBOTA U27-4",
       },
       {
-        "id": "14",
+        "id": "7",
+        "name": "Mini Excavator (4 Ton) w/ Thumb",
+        "prices": [
+          { "label": "1 Day",  "amount": "420.00" },
+          { "label": "Weekend",  "amount": "630.00" },
+          { "label": "1 Week", "amount": "1680.00" },
+          { "label": "4 Weeks", "amount": "4200.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/u35.png",
+        "model": "KUBOTA U35-4",
+      },
+      {
+        "id": "8",
         "name": "Mini Excavator (5 ton) with thumb",
         "prices": [
           { "label": "1 Day",  "amount": "470.00" },
@@ -653,7 +892,94 @@ const products = {
         ],
         "img": "./imgs/products/equipment/Excavators/1_N_N_N_I_640x640.png",
         "model": "Kubota U48-5",
-        "desc": "Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,"
+      },
+      {
+        "id": "9",
+        "name": "Mini Skid Steer (Track)",
+        "prices": [
+          { "label": "1 Day",  "amount": "280.00" },
+          { "label": "Weekend",  "amount": "420.00" },
+          { "label": "1 Week", "amount": "1120.00" },
+          { "label": "4 Weeks", "amount": "2800.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/stand.jpg",
+      },
+      {
+        "id": "10",
+        "name": "Pallet Forks Skid Steer/Mini Skid",
+        "prices": [
+          { "label": "1 Day",  "amount": "50.00" },
+          { "label": "Weekend",  "amount": "75.00" },
+          { "label": "1 Week", "amount": "200.00" },
+          { "label": "4 Weeks", "amount": "600.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/fork.jpg",
+      },
+      {
+        "id": "11",
+        "name": "Power Rake (Harley Rake) For Skid Steer 72″",
+        "prices": [
+          { "label": "1 Day",  "amount": "300.00" },
+          { "label": "Weekend",  "amount": "450.00" },
+          { "label": "1 Week", "amount": "1200.00" },
+          { "label": "4 Weeks", "amount": "3000.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/rake.jpg",
+      },
+      {
+        "id": "12",
+        "name": "Skid Steer (Track) 66″",
+        "prices": [
+          { "label": "1 Day",  "amount": "400.00" },
+          { "label": "Weekend",  "amount": "600.00" },
+          { "label": "1 Week", "amount": "1680.00" },
+          { "label": "4 Weeks", "amount": "4000.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/TRACK.jpg",
+      },
+      {
+        "id": "13",
+        "name": "Skid Steer (Wheel) 68″",
+        "prices": [
+          { "label": "1 Day",  "amount": "320.00" },
+          { "label": "Weekend",  "amount": "480.00" },
+          { "label": "1 Week", "amount": "1280.00" },
+          { "label": "4 Weeks", "amount": "3200.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/Wheel.jpg",
+      },
+      {
+        "id": "14",
+        "name": "Skid Steer Power Sweeper",
+        "prices": [
+          { "label": "1 Day",  "amount": "250.00" },
+          { "label": "Weekend",  "amount": "405.00" },
+          { "label": "1 Week", "amount": "810.00" },
+          { "label": "4 Weeks", "amount": "2700.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/Sweeper.jpg",
+      },
+      {
+        "id": "15",
+        "name": "Track Carrier",
+        "prices": [
+          { "label": "1 Day",  "amount": "200.00" },
+          { "label": "Weekend",  "amount": "300.00" },
+          { "label": "1 Week", "amount": "800.00" },
+          { "label": "4 Weeks", "amount": "2000.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/CARRIER.png",
+      },
+      {
+        "id": "16",
+        "name": "Tractor 40HP",
+        "prices": [
+          { "label": "1 Day",  "amount": "440.00" },
+          { "label": "Weekend",  "amount": "660.00" },
+          { "label": "1 Week", "amount": "1760.00" },
+          { "label": "4 Weeks", "amount": "5280.00" }
+        ],
+        "img": "./imgs/products/equipment/Excavators/Tractor.jpg",
       },
     ],
     
