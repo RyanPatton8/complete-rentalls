@@ -982,6 +982,288 @@ const products = {
         "img": "./imgs/products/equipment/Excavators/Tractor.jpg",
       },
     ],
+    "Fasteners & Staplers": [
+    {
+      "id": "1",
+      "name": "Air Nailer – Framing Paslode",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5framing.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Air Nailer Coil Roofing",
+      "prices": [
+        { "label": "4 Hour",  "amount": "25.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5roof.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Air Nailer Trim 16 & 18 GA BRAD",
+      "prices": [
+        { "label": "4 Hour",  "amount": "18.00"},
+        { "label": "1 Day",  "amount": "23.00"},
+        { "label": "Weekend",  "amount": "34.50" },
+        { "label": "1 Week", "amount": "92.00" },
+        { "label": "4 Weeks", "amount": "184.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5ustapler.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Carpet Stapler – Electric",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "160.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5stapler.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Hardwood Floor Stapler",
+      "prices": [
+        { "label": "4 Hour",  "amount": "25.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "280.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/hard.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Paslode Cordless Framing Nailer",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/PASLODE.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Ramset Powder Nailer",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "200.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5ramset.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Stand-Up Screw Gun",
+      "prices": [
+        { "label": "4 Hour",  "amount": "25.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "280.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5pamgun.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Underlay Stapler – Air",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "120.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5trim.png",
+    },
+  ],
+  "Floor And Carpet Tools": [
+    {
+      "id": "1",
+      "name": "Carpet Kicker",
+      "prices": [
+        { "label": "4 Hour",  "amount": "10.00"},
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/kicker.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Carpet Stapler – Electric",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "160.00" }
+      ],
+      "img": "./imgs/products/equipment/fasteners/5stapler.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Carpet/Rug Shampooer",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/4carpetcleane.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Floor Edger",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/5edger.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Floor Maintainer 17″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/5floormaintainer.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Floor Sander – Drum",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/4drum.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Floor Sander – Orbital",
+      "prices": [
+        { "label": "4 Hour",  "amount": "55.00"},
+        { "label": "1 Day",  "amount": "70.00"},
+        { "label": "Weekend",  "amount": "105.00" },
+        { "label": "1 Week", "amount": "280.00" },
+        { "label": "4 Weeks", "amount": "840.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/orbital.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Floor Stripper",
+      "prices": [
+        { "label": "4 Hour",  "amount": "45.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/4eddy.png",
+    },
+    {
+      "id": "9",
+      "name": "Tile Roller 100lbs",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/floor/4roller.jpg",
+    },
+  ],
+  "Generators": [
+    {
+      "id": "1",
+      "name": "Generator – 2000W Inverter",
+      "prices": [
+        { "label": "4 Hour",  "amount": "35.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/generators/I2000L.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Generator – 2800W 120V – Inverter",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/generators/2800i.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Generator – 3500W 110V",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/generators/I3500L.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Generator – 4000W 120V – Inverter",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/generators/4000i.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Generator – 4800W 110/220V",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/generators/4800w.jpg",
+    },
+  ],
     
   },
 
