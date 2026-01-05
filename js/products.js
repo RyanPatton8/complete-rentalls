@@ -1264,6 +1264,713 @@ const products = {
       "img": "./imgs/products/equipment/generators/4800w.jpg",
     },
   ],
+  "Grinders & Sanders": [
+    {
+      "id": "1",
+      "name": "Die Grinder – Stones/Extra",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/4die.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Grinder Angle 4 1/2″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "12.00"},
+        { "label": "1 Day",  "amount": "18.00"},
+        { "label": "Weekend",  "amount": "27.00" },
+        { "label": "1 Week", "amount": "54.00" },
+        { "label": "4 Weeks", "amount": "162.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/47grinder.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Grinder Angle 7″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "19.00"},
+        { "label": "1 Day",  "amount": "24.00"},
+        { "label": "Weekend",  "amount": "36.00" },
+        { "label": "1 Week", "amount": "96.00" },
+        { "label": "4 Weeks", "amount": "288.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/grind.jpg",
+    },
+  ],
+  "Heaters and Fans": [
+    {
+      "id": "1",
+      "name": "Diesel Fired Indirect Heater 200k BTU",
+      "prices": [
+        { "label": "1 Day",  "amount": "180.00"},
+        { "label": "Weekend",  "amount": "270.00" },
+        { "label": "1 Week", "amount": "540.00" },
+        { "label": "4 Weeks", "amount": "1080.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/Heater-indirect.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Fan Barrel 20″ 5000CFM",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/4barrel.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Heater 1500W Electric",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/41800w.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Heater 9KW 240V",
+      "prices": [
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/4heater9kw.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Tiger Torch - Propane",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "75.00" },
+        { "label": "4 Weeks", "amount": "150.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/4torch.jpg",
+    },
+    {
+      "id": "14",
+      "name": "Turbo Dehumidifier",
+      "prices": [
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/4dehumid..jpg",
+    },
+    {
+      "id": "14",
+      "name": "Turbo Floor Fan",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/snail.jpg",
+    },
+  ],
+  "Hoists and Lifts": [
+    {
+      "id": "1",
+      "name": "Chain Fall 1-1/2 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/achainfall.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Chain Fall 3 Tonne – 15′",
+      "prices": [
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/achainfall.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Chain Hoist 1 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/achainfall.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Genie Beam Lift 650Lbs 18Ft",
+      "prices": [
+        { "label": "1 Day",  "amount": "95.00"},
+        { "label": "Weekend",  "amount": "142.50" },
+        { "label": "1 Week", "amount": "380.00" },
+        { "label": "4 Weeks", "amount": "1140.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/agenie.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Man Lift Towable",
+      "prices": [
+        { "label": "1 Day",  "amount": "390.00"},
+        { "label": "Weekend",  "amount": "585.00" },
+        { "label": "1 Week", "amount": "1560.00" },
+        { "label": "4 Weeks", "amount": "3900.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/boom.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Rough Terrain Scissor Lift",
+      "prices": [
+        { "label": "1 Day",  "amount": "280.00"},
+        { "label": "Weekend",  "amount": "420.00" },
+        { "label": "1 Week", "amount": "840.00" },
+        { "label": "4 Weeks", "amount": "2000.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/4WD-SCISSOR-LIFT.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Scissor Lift 19′",
+      "prices": [
+        { "label": "4 Hour",  "amount": ""},
+        { "label": "1 Day",  "amount": ""},
+        { "label": "Weekend",  "amount": "" },
+        { "label": "1 Week", "amount": "" },
+        { "label": "4 Weeks", "amount": "" }
+      ],
+      "img": "./imgs/products/equipment/hoists/askyjack.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Trifor Puller 1-1/2 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/atirfor.jpg",
+    },
+  ],
+  "Jacks": [
+    {
+      "id": "1",
+      "name": "10 Tonne Toe Jack",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9toejack.jpg",
+    },
+    {
+      "id": "2",
+      "name": "12 Tonne Hydraulic Jack",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9jack.png",
+    },
+    {
+      "id": "3",
+      "name": "20 Tonne Screw Jack",
+      "prices": [,
+        { "label": "1 Day",  "amount": "15"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9screwjack.jpg",
+    },
+    {
+      "id": "4",
+      "name": "5 Tonne Toe Jack",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9toejack.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Floor Jack 3 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "180.00" },
+        { "label": "4 Weeks", "amount": "540.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9floorjack.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Jack Transmission 1/2 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9transjack.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Jack 1 Tonne Hi-Jack",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/9hijack.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Shoring Post 7’6″ / 11’6″",
+      "prices": [
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "32.00" },
+        { "label": "4 Weeks", "amount": "64.00" }
+      ],
+      "img": "./imgs/products/equipment/jacks/shore.jpg",
+    },
+  ],
+  "Ladders": [
+    {
+      "id": "1",
+      "name": "Ladder 24′ Extension",
+      "prices": [
+        { "label": "1 Day",  "amount": "24.00"},
+        { "label": "Weekend",  "amount": "36.00" },
+        { "label": "1 Week", "amount": "96.00" },
+        { "label": "4 Weeks", "amount": "288.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/9ladder.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Ladder 32′ Extension",
+      "prices": [
+        { "label": "1 Day",  "amount": "32.00"},
+        { "label": "Weekend",  "amount": "48.00" },
+        { "label": "1 Week", "amount": "128.00" },
+        { "label": "4 Weeks", "amount": "384.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/9ladder.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Multitask Ladder 25′",
+      "prices": [
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/multitask-ladder.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Step Ladder 8′",
+      "prices": [
+        { "label": "1 Day",  "amount": "16.00"},
+        { "label": "Weekend",  "amount": "24.00" },
+        { "label": "1 Week", "amount": "64.00" },
+        { "label": "4 Weeks", "amount": "192.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/9ladderstep.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Step Ladder 10′",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/10ladder.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Step Ladder 12′",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/ladders/12ladder.jpg",
+    },
+  ],
+  "Lawn And Garden Tools": [
+    {
+      "id": "1",
+      "name": "Aerator – Towable",
+      "prices": [
+        { "label": "1 Day",  "amount": "85.00"},
+        { "label": "Weekend",  "amount": "127.50" },
+        { "label": "1 Week", "amount": "340.00" },
+        { "label": "4 Weeks", "amount": "1020.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/9aerator.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Brush Chipper – 4 Inch",
+      "prices": [
+        { "label": "4 Hour",  "amount": "200.00"},
+        { "label": "1 Day",  "amount": "230.00"},
+        { "label": "Weekend",  "amount": "345.00" },
+        { "label": "1 Week", "amount": "920.00" },
+        { "label": "4 Weeks", "amount": "2760.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/34chipper.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Brush Chipper – 5 Inch Hyd. Feed",
+      "prices": [
+        { "label": "4 Hour",  "amount": "245.00"},
+        { "label": "1 Day",  "amount": "280.00"},
+        { "label": "Weekend",  "amount": "420.00" },
+        { "label": "1 Week", "amount": "1120.00" },
+        { "label": "4 Weeks", "amount": "3360.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/5IN-CHIPPER.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Brush Chipper – 7 Inch Hyd. Feed",
+      "prices": [
+        { "label": "4 Hour",  "amount": "300.00"},
+        { "label": "1 Day",  "amount": "340.00"},
+        { "label": "Weekend",  "amount": "510.00" },
+        { "label": "1 Week", "amount": "1360.00" },
+        { "label": "4 Weeks", "amount": "4080.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/BXTR.png",
+    },
+    {
+      "id": "5",
+      "name": "Cyclone Flail Mower",
+      "prices": [
+        { "label": "1 Day",  "amount": "140.00"},
+        { "label": "Weekend",  "amount": "210.00" },
+        { "label": "1 Week", "amount": "560.00" },
+        { "label": "4 Weeks", "amount": "1680.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/Orec-Cyclone-Mower-ahr662.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Gas Sod Cutter 18″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "95.00"},
+        { "label": "1 Day",  "amount": "115.00"},
+        { "label": "Weekend",  "amount": "172.50" },
+        { "label": "1 Week", "amount": "460.00" },
+        { "label": "4 Weeks", "amount": "1380.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/sod-cutter.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Hand-Held Leaf Blower",
+      "prices": [
+        { "label": "4 Hour",  "amount": "35.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/Handheld-Blower-1.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Hedge Trimmer Attachment",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/hedhetrimmer.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Hedge Trimmer Electric",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/9hedgetrimmer.jpg",
+    },
+    {
+      "id": "10",
+      "name": "Hedge Trimmer Gas 24″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "45.00"},
+        { "label": "Weekend",  "amount": "67.50"},
+        { "label": "1 Week", "amount": "180.00" },
+        { "label": "4 Weeks", "amount": "540.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/9hedge.jpg",
+    },
+    {
+      "id": "11",
+      "name": "Lawn Aerator – Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "60.00"},
+        { "label": "1 Day",  "amount": "85.00"},
+        { "label": "Weekend",  "amount": "127.50" },
+        { "label": "1 Week", "amount": "340.00" },
+        { "label": "4 Weeks", "amount": "1020.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/aerator.png",
+    },
+    {
+      "id": "12",
+      "name": "Lawn Mower",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/mow.jpg",
+    },
+    {
+      "id": "13",
+      "name": "Lawn Roller – Manual 24″",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "45.00" },
+        { "label": "4 Weeks", "amount": "90.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8lawnroller.jpg",
+    },
+    {
+      "id": "14",
+      "name": "Lawn Roller 18″ x 48″ – Towable",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/9roller.jpg",
+    },
+    {
+      "id": "15",
+      "name": "Leaf Blower Back Pack",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/br350.jpg",
+    },
+    {
+      "id": "16",
+      "name": "Log Splitter",
+      "prices": [
+        { "label": "4 Hour",  "amount": "55.00"},
+        { "label": "1 Day",  "amount": "70.00"},
+        { "label": "Weekend",  "amount": "105.00" },
+        { "label": "1 Week", "amount": "280.00" },
+        { "label": "4 Weeks", "amount": "700.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/Splitter-2.jpg",
+    },
+    {
+      "id": "17",
+      "name": "Log Splitter (Tilt)",
+      "prices": [
+        { "label": "4 Hour",  "amount": "65.00"},
+        { "label": "1 Day",  "amount": "85.00"},
+        { "label": "Weekend",  "amount": "127.50" },
+        { "label": "1 Week", "amount": "340.00" },
+        { "label": "4 Weeks", "amount": "850.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/tilt.jpg",
+    },
+    {
+      "id": "18",
+      "name": "Pruner Gas Powered 12ft",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "650.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8powerpruner.jpg",
+    },
+    {
+      "id": "19",
+      "name": "Pruning Saw – 12′ Aluminum",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8pruner.jpg",
+    },
+    {
+      "id": "20",
+      "name": "Roto Tiller",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8tiller.jpg",
+    },
+    {
+      "id": "21",
+      "name": "Roto Tiller Rear Tyne",
+      "prices": [
+        { "label": "4 Hour",  "amount": "65.00"},
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/Rear-Tine.jpg",
+    },
+    {
+      "id": "22",
+      "name": "Sledge Hammer",
+      "prices": [
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "32.00" },
+        { "label": "4 Weeks", "amount": "96.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/sledge.jpg",
+    },
+    {
+      "id": "23",
+      "name": "Sod Cutter 12″ Manual",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8manualsod.jpg",
+    },
+    {
+      "id": "24",
+      "name": "Spoon Shovel 10′ Handle",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8spoon.jpg",
+    },
+    {
+      "id": "25",
+      "name": "Stihl Power Unit",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/8powerunit.jpg",
+    },
+    {
+      "id": "26",
+      "name": "Stump Grinder – 13 HP",
+      "prices": [
+        { "label": "4 Hour",  "amount": "200.00"},
+        { "label": "1 Day",  "amount": "240.00"},
+        { "label": "Weekend",  "amount": "360.00" },
+        { "label": "1 Week", "amount": "960.00" },
+        { "label": "4 Weeks", "amount": "2880.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/stump.jpg",
+    },
+    {
+      "id": "27",
+      "name": "Stump Grinder (track) 30 hp",
+      "prices": [
+        { "label": "4 Hour",  "amount": "390.00"},
+        { "label": "1 Day",  "amount": "420.00"},
+        { "label": "Weekend",  "amount": "630.00" },
+        { "label": "1 Week", "amount": "1680.00" },
+        { "label": "4 Weeks", "amount": "4200.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/Barreto.jpg",
+    },
+    {
+      "id": "28",
+      "name": "Sweeper – Lawn Attachment",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/7sweeper.jpg",
+    },
+    {
+      "id": "29",
+      "name": "Tree Pruner – 12′ Aluminum Tele",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/7pruner.gif",
+    },
+  ],
     
   },
 
