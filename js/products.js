@@ -1971,6 +1971,727 @@ const products = {
       "img": "./imgs/products/equipment/garden/7pruner.gif",
     },
   ],
+  "Levels & Transits": [
+    {
+      "id": "1",
+      "name": "Laser Level Rod Tripod",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/levels/laser.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Measuring Wheel",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/levels/measurwheel.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Transit Level – c/w Tripod",
+      "prices": [
+        { "label": "4 Hour",  "amount": "35.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/levels/transit-1.jpg",
+    },
+  ],
+  "Masonry Bits": [
+    {
+      "id": "1",
+      "name": "Bosch Clay Spade",
+      "prices": [
+        { "label": "4 Hour",  "amount": "6.00"},
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "32.00" },
+        { "label": "4 Weeks", "amount": "96.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/aclayspade.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Core Bit 2-5/8″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "25.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "90.00" },
+        { "label": "4 Weeks", "amount": "260.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/acore.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Core Bit 2″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "75.00" },
+        { "label": "4 Weeks", "amount": "225.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/acore.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Core Bit 4″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "105.00" },
+        { "label": "4 Weeks", "amount": "315.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/acore.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Core Bit 5″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/acore.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Core Bit 6″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "150.00" },
+        { "label": "4 Weeks", "amount": "450.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/acore.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Masonry Bit 1-1/4″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "10.00"},
+        { "label": "1 Day",  "amount": "14.00"},
+        { "label": "Weekend",  "amount": "21.00" },
+        { "label": "1 Week", "amount": "56.00" },
+        { "label": "4 Weeks", "amount": "168.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/amasbit.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Masonry Bit 1″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "8.00"},
+        { "label": "1 Day",  "amount": "10.00"},
+        { "label": "Weekend",  "amount": "15.00" },
+        { "label": "1 Week", "amount": "40.00" },
+        { "label": "4 Weeks", "amount": "120.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/amasbit.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Masonry Bit 5/8″ SDS Max",
+      "prices": [
+        { "label": "4 Hour",  "amount": "8.00"},
+        { "label": "1 Day",  "amount": "10.00"},
+        { "label": "Weekend",  "amount": "15.00" },
+        { "label": "1 Week", "amount": "40.00" },
+        { "label": "4 Weeks", "amount": "120.00" }
+      ],
+      "img": "./imgs/products/equipment/masonry/amasbit.jpg",
+    },
+  ],
+  "Miscellaneous Equipment": [
+    {
+      "id": "1",
+      "name": "Commercial Paper Shredder",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/misc/shredder.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Flood Light 1KW",
+      "prices": [
+        { "label": "1 Day",  "amount": "18.00"},
+        { "label": "Weekend",  "amount": "27.00" },
+        { "label": "1 Week", "amount": "72.00" },
+        { "label": "4 Weeks", "amount": "216.00" }
+      ],
+      "img": "./imgs/products/equipment/misc/3floodlight.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Live Animal Trap",
+      "prices": [
+        { "label": "1 Day",  "amount": "10.00"},
+        { "label": "Weekend",  "amount": "15.00" },
+        { "label": "1 Week", "amount": "40.00" },
+        { "label": "4 Weeks", "amount": "80.00" }
+      ],
+      "img": "./imgs/products/equipment/misc/3livetrap.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Metal Detector",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/misc/metal.jpg",
+    },
+  ],
+  "Moving Equipment": [
+    {
+      "id": "1",
+      "name": "Appliance Cart",
+      "prices": [
+        { "label": "4 Hour",  "amount": "16.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "160.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/appliance.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Equipment Dollies 4-6 Tonne",
+      "prices": [
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/equipdollie.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Furniture Pads",
+      "prices": [
+        { "label": "1 Day",  "amount": "4.00"},
+        { "label": "Weekend",  "amount": "6.00" },
+        { "label": "1 Week", "amount": "16.00" },
+        { "label": "4 Weeks", "amount": "32.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/pads.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Loading Ramps 2000lb each",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/ramps.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Pallet Truck",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/pallettruck.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Piano Dolly – 600lb",
+      "prices": [
+        { "label": "4 Hour",  "amount": "8.00"},
+        { "label": "1 Day",  "amount": "10.00"},
+        { "label": "Weekend",  "amount": "15.00" },
+        { "label": "1 Week", "amount": "40.00" },
+        { "label": "4 Weeks", "amount": "120.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/dolly.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Piano Skid",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/moving/pianoskid.jpg",
+    },
+  ],
+  "Painting": [
+    {
+      "id": "1",
+      "name": "Airless Paint Sprayer",
+      "prices": [
+        { "label": "1 Day",  "amount": "105.00"},
+        { "label": "Weekend",  "amount": "157.50" },
+        { "label": "1 Week", "amount": "420" },
+        { "label": "4 Weeks", "amount": "1260.00" }
+      ],
+      "img": "./imgs/products/equipment/painting/sprayer.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Heat Gun",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/painting/heatgun.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Painters Scaffold 2′ x 6′ x 6′",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "160.00" }
+      ],
+      "img": "./imgs/products/equipment/painting/paintscaff.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Wallpaper Steamer",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/painting/steamer.jpg",
+    },
+  ],
+  "Pipe Threading Equipment": [
+    {
+      "id": "1",
+      "name": "2 Pipe Cutter For P/Vise",
+      "prices": [
+        { "label": "1 Day",  "amount": "9.00"},
+        { "label": "Weekend",  "amount": "13.50" },
+        { "label": "1 Week", "amount": "36.00" },
+        { "label": "4 Weeks", "amount": "108.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/cutter.jpg",
+    },
+    {
+      "id": "2",
+      "name": "2 to 4 Pipe Reamer",
+      "prices": [
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "32.00" },
+        { "label": "4 Weeks", "amount": "96.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/reamer.jpg",
+    },
+    {
+      "id": "3",
+      "name": "2″ Pipe Cutter",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/cutter.jpg",
+    },
+    {
+      "id": "4",
+      "name": "4″ Pipe Cutter",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/cutter.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Pipe Tap 1-1/2″ or 2″",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/tap.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Pipe Wrench 36″",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/pipewrench.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Pipe Wrench 48″",
+      "prices": [
+        { "label": "1 Day",  "amount": "25.00"},
+        { "label": "Weekend",  "amount": "37.50" },
+        { "label": "1 Week", "amount": "100.00" },
+        { "label": "4 Weeks", "amount": "300.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/pipewrench.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Power Vise c/w 1″ – 2″ Die",
+      "prices": [
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/rigid300.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Soil Pipe Cutter",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/pipe/soilcutter.jpg",
+    },
+  ],
+  "Plumbing": [
+    {
+      "id": "1",
+      "name": "Drain Snake 50′ x 5/8″",
+      "prices": [
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/plumbing/50.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Drain Tape 50′ x 3/4″",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/plumbing/Sewer_Tape_72dpi.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Drain Tape 75′ x 3/4″",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/plumbing/Sewer_Tape_72dpi.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Toilet Auger",
+      "prices": [
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/plumbing/toiletauger.jpg",
+    },
+  ],
+  "Pumps & Hoses": [
+    {
+      "id": "1",
+      "name": "2″ Centrifugal Pump Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/pump.jpg",
+    },
+    {
+      "id": "2",
+      "name": "2″ x 25′ Discharge Hose",
+      "prices": [
+        { "label": "1 Day",  "amount": "7.00"},
+        { "label": "Weekend",  "amount": "10.50" },
+        { "label": "1 Week", "amount": "28.00" },
+        { "label": "4 Weeks", "amount": "56.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/3hose.jpg",
+    },
+    {
+      "id": "3",
+      "name": "2″ x 50′ Discharge Hose",
+      "prices": [
+        { "label": "1 Day",  "amount": "10.00"},
+        { "label": "Weekend",  "amount": "15.00" },
+        { "label": "1 Week", "amount": "40.00" },
+        { "label": "4 Weeks", "amount": "80.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/3hose.jpg",
+    },
+    {
+      "id": "4",
+      "name": "3″ Centrifugal Pump Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/pump.jpg",
+    },
+    {
+      "id": "5",
+      "name": "3″ x 25′ Discharge Hose",
+      "prices": [
+        { "label": "1 Day",  "amount": "8.00"},
+        { "label": "Weekend",  "amount": "12.00" },
+        { "label": "1 Week", "amount": "32.00" },
+        { "label": "4 Weeks", "amount": "64.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/3hose.jpg",
+    },
+    {
+      "id": "6",
+      "name": "3″ x 50′ Discharge Hose",
+      "prices": [
+        { "label": "1 Day",  "amount": "14.00"},
+        { "label": "Weekend",  "amount": "21.00" },
+        { "label": "1 Week", "amount": "56.00" },
+        { "label": "4 Weeks", "amount": "112.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/3hose.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Pump 1″ Floor Drainer",
+      "prices": [
+        { "label": "4 Hour",  "amount": "16.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "160.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/floor.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Pump 2″ – Submersible",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "350.00" }
+      ],
+      "img": "./imgs/products/equipment/pumps/subpump.jpg",
+    },
+  ],
+  "Saws": [
+    {
+      "id": "1",
+      "name": "Brush Saw – 10″ Gas Powered",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7brushsaw.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Chain Saw 16″-18″",
+      "prices": [
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7chainsaw-3.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Chain Saw 24″",
+      "prices": [
+        { "label": "1 Day",  "amount": "95.00"},
+        { "label": "Weekend",  "amount": "142.50" },
+        { "label": "1 Week", "amount": "380.00" },
+        { "label": "4 Weeks", "amount": "1140.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/24IN-CHAINSAW.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Concrete Saw – 14″ Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/ts.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Cut N’ Break Saw Electric/Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "175.00"},
+        { "label": "1 Day",  "amount": "210.00"},
+        { "label": "Weekend",  "amount": "315.00" },
+        { "label": "1 Week", "amount": "840.00" },
+        { "label": "4 Weeks", "amount": "2520.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/1cutnbreak.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Diamond Blade 14″ Granite",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "Weekend",  "amount": "60.00" },
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7diablade.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Diamond Blade 18″ Concrete",
+      "prices": [
+        { "label": "4 Hour",  "amount": "20.00"},
+        { "label": "1 Day",  "amount": "30.00"},
+        { "label": "Weekend",  "amount": "45.00" },
+        { "label": "1 Week", "amount": "120.00" },
+        { "label": "4 Weeks", "amount": "360.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7diablade.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Jig Saw",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7jigsaw.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Mitre Saw Electric 10″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "30.00"},
+        { "label": "1 Day",  "amount": "35.00"},
+        { "label": "Weekend",  "amount": "52.50" },
+        { "label": "1 Week", "amount": "140.00" },
+        { "label": "4 Weeks", "amount": "420.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7mitersaw.jpg",
+    },
+    {
+      "id": "10",
+      "name": "Reciprocating Saw",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7sawzall.jpg",
+    },
+    {
+      "id": "11",
+      "name": "Saw Circular 7 1/4″",
+      "prices": [
+        { "label": "4 Hour",  "amount": "15.00"},
+        { "label": "1 Day",  "amount": "20.00"},
+        { "label": "Weekend",  "amount": "30.00" },
+        { "label": "1 Week", "amount": "80.00" },
+        { "label": "4 Weeks", "amount": "240.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7circsaw.jpg",
+    },
+    {
+      "id": "12",
+      "name": "Table Saw",
+      "prices": [
+        { "label": "4 Hour",  "amount": "45.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7tablesaw.jpg",
+    },
+    {
+      "id": "13",
+      "name": "Tilematic Saw",
+      "prices": [
+        { "label": "4 Hour",  "amount": "70.00"},
+        { "label": "1 Day",  "amount": "90.00"},
+        { "label": "Weekend",  "amount": "135.00" },
+        { "label": "1 Week", "amount": "360.00" },
+        { "label": "4 Weeks", "amount": "900.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/7tilesaw.jpg",
+    },
+  ],
     
   },
 
