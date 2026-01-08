@@ -3092,7 +3092,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.50" },
       ],
       "img": "./imgs/products/events/dinnerware/Cutlery.png",
-      "desc": `<ul>
+      "altDesc" : `<ul>
   <li>Cutlery – $0.50/each (Comes in multiples of 20)</li>
   <li>Dinner Fork</li>
   <li>Dinner Knife</li>

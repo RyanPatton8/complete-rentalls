@@ -58,6 +58,14 @@ function displayResults(product){
             </div>
             `;
         }
+        if(product.altDesc){
+            displayString += `
+            <div class="description-holder alt-desc">
+                <h3 id="more-info">Additional Information</h3>
+                <p>${product.altDesc}</p>
+            </div>
+            `
+        }
         displayString += "</div>";
     }
     displayString += `<div class="name-and-model-mobile">`

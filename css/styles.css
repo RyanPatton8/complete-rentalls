@@ -627,7 +627,9 @@ iframe {
     display: none;
     margin: 0 0 15px 0;
 }
-
+.product-information .alt-desc{
+    margin-top: 50px;
+}
 /* .socials i { display: block; } */
 /* Responsive Design */
 @media (max-width: 1500px){
@@ -788,7 +790,7 @@ iframe {
         gap: 3px;
     }
     
-    .product-information .price {
+    .product-information .price, .product-information .alt-desc, .product-information .alt-desc #more-info {
         font-size: 16px;
     }
     .category-card {
@@ -871,11 +873,3 @@ iframe {
         font-size: 40px;
     }
 }
-
-
-
-
-
-
-
-
