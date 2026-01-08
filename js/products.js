@@ -2692,34 +2692,657 @@ const products = {
       "img": "./imgs/products/equipment/saws/7tilesaw.jpg",
     },
   ],
+  "Scaffolding": [
+    {
+      "id": "1",
+      "name": "Frame – 5′ x 5′",
+      "prices": [
+        { "label": "1 Week", "amount": "5.00" },
+        { "label": "4 Weeks", "amount": "15.00" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/5x5-frame.png",
+      "desc": `<ul>
+          <li>Also have:</li>
+          <li>3' x 5' Frame (half section)</li>
+          <li>5' x 2'6″ Frame (Narrow Scaffold)</li>
+          <li>3' x 2'6″ Frame (Half section of narrow Scaffold)</li>
+        </ul>`
+    },
+    {
+      "id": "2",
+      "name": "Caster",
+      "prices": [
+        { "label": "1 Week", "amount": "3.00" },
+        { "label": "4 Weeks", "amount": "9.00" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/caster.jpeg",
+    },
+    {
+      "id": "3",
+      "name": "Cross Brace",
+      "prices": [
+        { "label": "1 Week", "amount": "2.50" },
+        { "label": "4 Weeks", "amount": "7.50" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/Cross-Braces.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Frame – 6’6″ x 5′ (Walk-thru)",
+      "prices": [
+        { "label": "1 Week", "amount": "7.00" },
+        { "label": "4 Weeks", "amount": "21.00" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/walkthru.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Jack Screw",
+      "prices": [
+        { "label": "1 Week", "amount": "3.00" },
+        { "label": "4 Weeks", "amount": "9.00" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/screw.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Platform",
+      "prices": [
+        { "label": "1 Week", "amount": "9.00" },
+        { "label": "4 Weeks", "amount": "27.00" }
+      ],
+      "img": "./imgs/products/equipment/scaffold/Platform.jpg",
+    },
+  ],
+  "Trailers": [
+    {
+      "id": "1",
+      "name": "Cargo Trailer 6 x 12 ft",
+      "prices": [
+        { "label": "4 Hour",  "amount": "60.00"},
+        { "label": "1 Day",  "amount": "75.00"},
+        { "label": "Weekend",  "amount": "112.50" },
+        { "label": "1 Week", "amount": "300.00" },
+        { "label": "4 Weeks", "amount": "900.00" }
+      ],
+      "img": "./imgs/products/equipment/trailers/7cargo.jpg",
+      "desc": "WEIGHT LIMIT 3500 LBS"
+    },
+    {
+      "id": "2",
+      "name": "Cargo Trailer 8.5 x 16 ft",
+      "prices": [
+        { "label": "1 Day",  "amount": "105.00"},
+        { "label": "Weekend",  "amount": "157.50" },
+        { "label": "1 Week", "amount": "420.00" },
+        { "label": "4 Weeks", "amount": "1260.00" }
+      ],
+      "img": "./imgs/products/equipment/trailers/6trailer.png",
+      "desc": "WEIGHT LIMIT 4300 LBS"
+    },
+    {
+      "id": "3",
+      "name": "Cargo Trailer 7 x 14 ft",
+      "prices": [
+        { "label": "1 Day",  "amount": "95.00"},
+        { "label": "Weekend",  "amount": "142.50" },
+        { "label": "1 Week", "amount": "380.00" },
+        { "label": "4 Weeks", "amount": "1140.00" }
+      ],
+      "img": "./imgs/products/equipment/trailers/6trailer.png",
+      "desc": "WEIGHT LIMIT 5000 LBS"
+    },
+    {
+      "id": "4",
+      "name": "Tilt Trailer 6×14",
+      "prices": [
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/trailers/6x14-float.jpg",
+      "desc": "WEIGHT LIMIT 5500 LBS"
+    },
+    {
+      "id": "5",
+      "name": "Trailer Open 6×12 ft",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "60.00"},
+        { "label": "Weekend",  "amount": "90.00" },
+        { "label": "1 Week", "amount": "240.00" },
+        { "label": "4 Weeks", "amount": "720.00" }
+      ],
+      "img": "./imgs/products/equipment/trailers/12ft-utility.png",
+      "desc": "WEIGHT LIMIT 1900 LBS"
+    },
+  ],
+  "Welding Equipment": [
+    {
+      "id": "1",
+      "name": "250 AMP Arc Welder – Elect",
+      "prices": [
+        { "label": "1 Day",  "amount": "70.00"},
+        { "label": "Weekend",  "amount": "105.00" },
+        { "label": "1 Week", "amount": "280.00" },
+        { "label": "4 Weeks", "amount": "840.00" }
+      ],
+      "img": "./imgs/products/equipment/welding/6arc.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Mig Welder 120V or 240v Gasless",
+      "prices": [
+        { "label": "4 Hour",  "amount": "60.00"},
+        { "label": "1 Day",  "amount": "80.00"},
+        { "label": "Weekend",  "amount": "120.00" },
+        { "label": "1 Week", "amount": "320.00" },
+        { "label": "4 Weeks", "amount": "960.00" }
+      ],
+      "img": "./imgs/products/equipment/welding/6mig.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Welder 250 Amp Portable Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "90.00"},
+        { "label": "1 Day",  "amount": "120.00"},
+        { "label": "Weekend",  "amount": "180.00" },
+        { "label": "1 Week", "amount": "480.00" },
+        { "label": "4 Weeks", "amount": "1440.00" }
+      ],
+      "img": "./imgs/products/equipment/welding/6welder.jpg",
+    },
+  ],
     
   },
 
   "Events": {
-    "TENTS AND CANOPIES": [
+    "Tents & Canopies": [
     {
-      "id": "15",
-      "name": "40’x100′ Pole Tent",
-      "prices": [
-        { "label": "Weekend",  "amount": "3,100.00"},
-      ],
-      "img": "./imgs/products/events/TENTS AND CANOPIES/40X100.jpg",
-    },
-    {
-      "id": "14",
-      "name": "40’x120′ Pole Tent",
-      "prices": [
-        { "label": "Weekend",  "amount": "3,700.00"},
-      ],
-      "img": "./imgs/products/events/TENTS AND CANOPIES/4080.jpg",
-    },
-    {
-      "id": "16",
+      "id": "1",
       "name": "40’x80′ Pole Tent",
       "prices": [
         { "label": "Weekend",  "amount": "2,600.00"},
       ],
-      "img": "./imgs/products/events/TENTS AND CANOPIES/40-x-80-water-pic.jpg",
+      "img": "./imgs/products/events/tents/40-x-80-water-pic.jpg",
+    },
+    {
+      "id": "2",
+      "name": "40’x100′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "3,100.00"},
+      ],
+      "img": "./imgs/products/events/tents/40X100.jpg",
+    },
+    {
+      "id": "3",
+      "name": "40’x120′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "3,700.00"},
+      ],
+      "img": "./imgs/products/events/tents/4080.jpg",
+    },
+    {
+      "id": "4",
+      "name": "40’x60′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "2200.00"},
+      ],
+      "img": "./imgs/products/events/tents/4060.jpg",
+    },
+    {
+      "id": "5",
+      "name": "30’x60′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "1475.00"},
+      ],
+      "img": "./imgs/products/events/tents/30X60.jpg",
+    },
+    {
+      "id": "6",
+      "name": "30’x45′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "1350.00"},
+      ],
+      "img": "./imgs/products/events/tents/30X45.jpg",
+    },
+    {
+      "id": "7",
+      "name": "20’x30′ Frame Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "800.00"},
+      ],
+      "img": "./imgs/products/events/tents/20X30F-1.jpg",
+    },
+    {
+      "id": "8",
+      "name": "20’x40′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "750.00"},
+      ],
+      "img": "./imgs/products/events/tents/20X40-1.jpg",
+    },
+    {
+      "id": "9",
+      "name": "20’x20′ Frame Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "600.00"},
+      ],
+      "img": "./imgs/products/events/tents/20X20-f.jpg",
+    },
+    {
+      "id": "10",
+      "name": "20’x30′ Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": "600.00"},
+      ],
+      "img": "./imgs/products/events/tents/20X30-P-1.jpg",
+    },
+    {
+      "id": "11",
+      "name": "20×20 Pole Tent",
+      "prices": [
+        { "label": "Weekend",  "amount": ""},
+      ],
+      "img": "./imgs/products/events/tents/2020.jpg",
+    },
+    {
+      "id": "12",
+      "name": "10’x10′ Pop-Up Canopy",
+      "prices": [
+        { "label": "Weekend",  "amount": "75.00"},
+      ],
+      "img": "./imgs/products/events/tents/canopy-1.jpg",
+    },
+  ],
+  "Tables, Chairs & Linens ": [
+    {
+      "id": "1",
+      "name": "Cross Back Chair",
+      "prices": [
+        { "label": "Weekend",  "amount": "8.00" },
+      ],
+      "img": "./imgs/products/events/tables/cross-back.png",
+    },
+    {
+      "id": "2",
+      "name": "Table Skirting 20ft",
+      "prices": [
+        { "label": "Weekend",  "amount": "40.00" },
+      ],
+      "img": "./imgs/products/events/tables/Skirting.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Cruiser Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "16.00" },
+      ],
+      "img": "./imgs/products/events/tables/Cruiser1.jpg",
+      "desc": "Cruiser Form-Fit Linen - $14.00"
+    },
+    {
+      "id": "4",
+      "name": "Linen for Round Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "14.00" },
+      ],
+      "img": "./imgs/products/events/tables/linen.jpeg",
+      "desc": "Comes in Black ($12.00) or White ($14.00)"
+    },
+    {
+      "id": "5",
+      "name": "Linen for 8ft. Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "14.00" },
+      ],
+      "img": "./imgs/products/events/tables/8ft-Linen.jpg",
+    },
+    {
+      "id": "6",
+      "name": "8 Ft Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "13.50" },
+      ],
+      "img": "./imgs/products/events/tables/8ft-Table.jpg",
+      "desc": "Width – 30″"
+    },
+    {
+      "id": "7",
+      "name": "Round Table (60″ Diameter)",
+      "prices": [
+        { "label": "Weekend",  "amount": "13.50" },
+      ],
+      "img": "./imgs/products/events/tables/Round-Table.jpg",
+    },
+    {
+      "id": "8",
+      "name": "6 Ft Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "11.00" },
+      ],
+      "img": "./imgs/products/events/tables/8ft-Table.jpg",
+      "desc": "Width – 30″"
+    },
+    {
+      "id": "9",
+      "name": "Card Table 3Ft x 3Ft",
+      "prices": [
+        { "label": "Weekend",  "amount": "8.50" },
+      ],
+      "img": "./imgs/products/events/tables/Card-Table.jpg",
+    },
+    {
+      "id": "10",
+      "name": "Plastic White Bistro Chair",
+      "prices": [
+        { "label": "Weekend",  "amount": "4.25" },
+      ],
+      "img": "./imgs/products/events/tables/2xhair.gif",
+    },
+    {
+      "id": "11",
+      "name": "Chair Cover",
+      "prices": [
+        { "label": "Weekend",  "amount": "3.50" },
+      ],
+      "img": "./imgs/products/events/tables/cover.jpg",
+      "desc": "Will fit on our Black & White folding chairs."
+    },
+    {
+      "id": "12",
+      "name": "Fold-out White Chair",
+      "prices": [
+        { "label": "Weekend",  "amount": "3.00" },
+      ],
+      "img": "./imgs/products/events/tables/Whitechair.gif",
+    },
+    {
+      "id": "13",
+      "name": "Fold-out Black Chair",
+      "prices": [
+        { "label": "Weekend",  "amount": "2.50" },
+      ],
+      "img": "./imgs/products/events/tables/chair.png",
+    },
+    {
+      "id": "14",
+      "name": "Cross Back Chair Cushion",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.00" },
+      ],
+      "img": "./imgs/products/events/tables/Cushion-2.jpg",
+    },
+    {
+      "id": "15",
+      "name": "Napkins",
+      "prices": [
+        { "label": "Weekend",  "amount": "" },
+      ],
+      "img": "./imgs/products/events/tables/napkin.jpg",
+    },
+  ],
+  "Dinnerware": [
+    {
+      "id": "1",
+      "name": "‘Snow Drop’ Cutlery (Priced Per Piece)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.50" },
+      ],
+      "img": "./imgs/products/events/dinnerware/Cutlery.png",
+      "desc": `<ul>
+  <li>Cutlery – $0.50/each (Comes in multiples of 20)</li>
+  <li>Dinner Fork</li>
+  <li>Dinner Knife</li>
+  <li>Dessert Fork</li>
+  <li>Soup Spoon</li>
+  <li>Teaspoon</li>
+  <li>Steak Knife</li>
+</ul>`
+    },
+    {
+      "id": "2",
+      "name": "6″ Plate (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.65" },
+      ],
+      "img": "./imgs/products/events/dinnerware/6-in-snowdrop.png",
+    },
+    {
+      "id": "3",
+      "name": "14″ Platter (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "2.00" },
+      ],
+      "img": "./imgs/products/events/dinnerware/platter.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Cup & Saucer (Square)",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.20" },
+      ],
+      "img": "./imgs/products/events/dinnerware/square-cup-and-saucer.png",
+      "desc": `<ul>
+  <li>Cup – $0.60/each (Comes in multiples of 20)</li>
+  <li>Saucer – $0.60/each (Comes in multiples of 20)
+</ul>`
+    },
+    {
+      "id": "5",
+      "name": "Cup & Saucer (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.20" },
+      ],
+      "img": "./imgs/products/events/dinnerware/cup.jpg",
+      "desc": `<ul>
+  <li>Cup – $0.60/each (Comes in multiples of 20)</li>
+  <li>Saucer – $0.60/each (Comes in multiples of 20)</li>
+</ul>`
+      
+    },
+    {
+      "id": "6",
+      "name": "10″ Square Plate",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.00" },
+      ],
+      "img": "./imgs/products/events/dinnerware/square-10-in.png",
+      "desc": "Comes in multiples of 15"
+    },
+    {
+      "id": "7",
+      "name": "7″ Square Plate",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.80" },
+      ],
+      "img": "./imgs/products/events/dinnerware/square-7-in.png",
+      "desc": "Comes in multiples of 15"
+    },
+    {
+      "id": "8",
+      "name": "Square Soup/Salad Bowl",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/dinnerware/square-bowl.png",
+      "desc": "Comes in multiples of 15"
+    },
+    {
+      "id": "9",
+      "name": "Salad Bowl (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/dinnerware/bowl.jpg",
+      "desc": "Comes in multiples of 20"
+    },
+    {
+      "id": "10",
+      "name": "Soup Bowl (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/dinnerware/Soup-bowl-snowdrop.png",
+      "desc": "Comes in multiples of 20"
+    },
+    {
+      "id": "9",
+      "name": "10″ Plate (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/dinnerware/10-in-snowdrop.png",
+      "desc": "Comes in multiples of 20"
+    },
+    {
+      "id": "10",
+      "name": "7″ Plate (Snow Drop)",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.65" },
+      ],
+      "img": "./imgs/products/events/dinnerware/7-in-snowdrop.png",
+      "desc": "Comes in multiples of 20"
+    },
+    {
+      "id": "11",
+      "name": "Sugar Bowl",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.50" },
+      ],
+      "img": "./imgs/products/events/dinnerware/sugar.jpg",
+    },
+  ],
+  "Bar Service": [
+    {
+      "id": "1",
+      "name": "Portable Bar",
+      "prices": [
+        { "label": "Weekend",  "amount": "80.00" },
+      ],
+      "img": "./imgs/products/events/bar/bar.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Galvanized Trough",
+      "prices": [
+        { "label": "Weekend",  "amount": "45.00" },
+      ],
+      "img": "./imgs/products/events/bar/Beverage-Tub-Galvanized-1.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Stainless Bowl",
+      "prices": [
+        { "label": "Weekend",  "amount": "15.00" },
+      ],
+      "img": "./imgs/products/events/bar/bowl.jpg",
+    },
+    {
+      "id": "4",
+      "name": "Round Tubs",
+      "prices": [
+        { "label": "Weekend",  "amount": "5.00" },
+      ],
+      "img": "./imgs/products/events/bar/bin.jpg",
+    },
+  ],
+  "Glassware": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
+    },
+  ],
+  "Food Service": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
+    },
+  ],
+  "Wedding Accessories": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
+    },
+  ],
+  "Food Preperation": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
+    },
+  ],
+  "Games": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
+    },
+  ],
+  "Other/Misc": [
+    {
+      "id": "14",
+      "name": "ITEM",
+      "prices": [
+        { "label": "4 Hour",  "amount": "DOLLARS"},
+        { "label": "1 Day",  "amount": "DOLLARS"},
+        { "label": "Weekend",  "amount": "DOLLARS" },
+        { "label": "1 Week", "amount": "1,880.00" },
+        { "label": "4 Weeks", "amount": "5,170.00" }
+      ],
+      "img": "./imgs/products/equipment or events/category/imagename.jpg",
+      "model": "ITEM MODEL",
+      "desc": "ADDITIONAL DESCRIPTION"
     },
   ],
   }
