@@ -3630,7 +3630,7 @@ const products = {
       "img": "./imgs/products/events/misc/megaphone.jpg",
     },
     {
-      "id": "1",
+      "id": "4",
       "name": "Coat Rack",
       "prices": [
         { "label": "Weekend",  "amount": "25.00" },
