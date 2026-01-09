@@ -3125,7 +3125,7 @@ const products = {
         { "label": "Weekend",  "amount": "1.20" },
       ],
       "img": "./imgs/products/events/dinnerware/square-cup-and-saucer.png",
-      "desc": `<ul>
+      "altDesc": `<ul>
   <li>Cup – $0.60/each (Comes in multiples of 20)</li>
   <li>Saucer – $0.60/each (Comes in multiples of 20)
 </ul>`
@@ -3251,98 +3251,391 @@ const products = {
   ],
   "Glassware": [
     {
-      "id": "14",
-      "name": "ITEM",
+      "id": "1",
+      "name": "Goblets",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "Weekend",  "amount": "0.75" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/glassware/water-goblet.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "2",
+      "name": "Martini Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.00" },
+      ],
+      "img": "./imgs/products/events/glassware/Martini.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "3",
+      "name": "Beer Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/glassware/Beer-class.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "4",
+      "name": "9 oz. Wine Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.65" },
+      ],
+      "img": "./imgs/products/events/glassware/9oz.jpg",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "5",
+      "name": "6 oz. Wine Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.60" },
+      ],
+      "img": "./imgs/products/events/glassware/6-oz-wine.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "6",
+      "name": "12 oz. Wine Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.75" },
+      ],
+      "img": "./imgs/products/events/glassware/12-oz-wine.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "7",
+      "name": "Champagne Flute",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.60" },
+      ],
+      "img": "./imgs/products/events/glassware/Champagne-flute.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "8",
+      "name": "Highball Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.60" },
+      ],
+      "img": "./imgs/products/events/glassware/Highball.png",
+      "altDesc": "Comes in multiples of 24"
+    },
+    {
+      "id": "9",
+      "name": "Old Fashion Glass",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.60" },
+      ],
+      "img": "./imgs/products/events/glassware/Old-fashion.png",
+      "altDesc": "Comes in multiples of 24"
     },
   ],
-  "Food Service": [
+  "Food Service & Preparation": [
+    {
+      "id": "1",
+      "name": "Chafing Dish",
+      "prices": [
+        { "label": "Weekend",  "amount": "32.00" },
+      ],
+      "img": "./imgs/products/events/food/chafing.jpg",
+      "altDesc": `<ul>
+      <li>Round Chafing Dish – $15.00</li>
+      <li>Sternos included</li>
+       </ul>`
+    },
+    {
+      "id": "2",
+      "name": "BBQ Propane (60″)",
+      "prices": [
+        { "label": "Weekend",  "amount": "250.00" },
+      ],
+      "img": "./imgs/products/events/food/60-bbq.jpg",
+      "altDesc": `<ul>
+      <li>Grills Included</li>
+      <li>Griddle Plate – $25 each</li>
+       </ul>`
+    },
+    {
+      "id": "3",
+      "name": "BBQ Propane (36″)",
+      "prices": [
+        { "label": "Weekend",  "amount": "150.00" },
+      ],
+      "img": "./imgs/products/events/food/bbq.png",
+      "altDesc": `<ul>
+      <li>Grills Included</li>
+      <li>Griddle Plate – $25 each</li>
+       </ul>`
+    },
+    {
+      "id": "4",
+      "name": "Portable Hand-wash Station",
+      "prices": [
+        { "label": "Weekend",  "amount": "140.00" },
+      ],
+      "img": "./imgs/products/events/food/HAND.jpg",
+    },
+    {
+      "id": "5",
+      "name": "BBQ Spit",
+      "prices": [
+        { "label": "Weekend",  "amount": "120.00" },
+      ],
+      "img": "./imgs/products/events/food/bbq-spit.jpg",
+      "altDesc": "Comes With Lid"
+    },
+    {
+      "id": "6",
+      "name": "BBQ Grill",
+      "prices": [
+        { "label": "Weekend",  "amount": "90.00" },
+      ],
+      "img": "./imgs/products/events/food/CHARCOAL-BBQ-1.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Propane Hot Pot Cooker & Pot",
+      "prices": [
+        { "label": "Weekend",  "amount": "45.00" },
+      ],
+      "img": "./imgs/products/events/food/HOTPOT.jpg",
+      "altDesc": `<ul>
+      <li>Propane Cooker – $25.00</li>
+      <li>20L Pot – $20.00 (shown)</li>
+      <li>80L Pot – $25.00</li>
+       </ul>`
+    },
+    {
+      "id": "8",
+      "name": "Cast Pot & Tripod",
+      "prices": [
+        { "label": "Weekend",  "amount": "50.00" },
+      ],
+      "img": "./imgs/products/events/food/tripod.jpg",
+    },
+    {
+      "id": "9",
+      "name": "Coffee Urn",
+      "prices": [
+        { "label": "Weekend",  "amount": "24.00" },
+      ],
+      "img": "./imgs/products/events/food/coffee.jpg",
+      "altDesc": `<ul>
+      <li>Small - 36 Cup</li>
+      <li>Medium - 60 Cup</li>
+      <li>Large - 100 Cup</li>
+       </ul>`
+    },
+    {
+      "id": "10",
+      "name": "100 Cup Thermos",
+      "prices": [
+        { "label": "Weekend",  "amount": "20.00" },
+      ],
+      "img": "./imgs/products/events/food/thermos.jpg",
+    },
+    {
+      "id": "11",
+      "name": "Popcorn Machine",
+      "prices": [
+        { "label": "Weekend",  "amount": "80.00" },
+      ],
+      "img": "./imgs/products/events/food/POPC.jpg",
+      "altDesc": `<ul>
+      <li>25 Popcorn Bags – $2.50</li>
+      <li>8oz Popcorn Kit –  $3.00</li>
+       </ul>`
+    },
+    {
+      "id": "12",
+      "name": "Cotton Candy Machine",
+      "prices": [
+        { "label": "Weekend",  "amount": "80.00" },
+      ],
+      "img": "./imgs/products/events/food/cottoncandy.jpeg",
+      "altDesc": "Cotton Candy Package – $70 (includes 2 cartons of sugar floss,100 bags and 100 cones. Does not include machine rental.)"
+    },
+    {
+      "id": "13",
+      "name": "Cupcake Holder – 3 Tier",
+      "prices": [
+        { "label": "Weekend",  "amount": "40.00" },
+      ],
+      "img": "./imgs/products/events/food/cupcake-tray.png",
+    },
     {
       "id": "14",
-      "name": "ITEM",
+      "name": "Serving Trays",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "Weekend",  "amount": "9.00" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/food/tray.jpg",
+      "altDesc": `<ul>
+      <li>26″ Stainless Steel Tray – $9.00/each</li>
+      <li>18″ Stainless Steel Tray – $6.00/each</li>
+       </ul>`
+    },
+    {
+      "id": "15",
+      "name": "Water Jugs",
+      "prices": [
+        { "label": "Weekend",  "amount": "2.50" },
+      ],
+      "img": "./imgs/products/events/food/jug.jpg",
+    },
+    {
+      "id": "16",
+      "name": "Gravy Boat",
+      "prices": [
+        { "label": "Weekend",  "amount": "1.00" },
+      ],
+      "img": "./imgs/products/events/food/gravy.jpg",
+    },
+    {
+      "id": "17",
+      "name": "Cream Jug",
+      "prices": [
+        { "label": "Weekend",  "amount": "0.50" },
+      ],
+      "img": "./imgs/products/events/food/cream.jpg",
     },
   ],
   "Wedding Accessories": [
     {
-      "id": "14",
-      "name": "ITEM",
+      "id": "1",
+      "name": "Wedding Arch",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "Weekend",  "amount": "25.00" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/wedding/darryls-arch.jpg",
     },
-  ],
-  "Food Preperation": [
     {
-      "id": "14",
-      "name": "ITEM",
+      "id": "2",
+      "name": "Dance Floor 400sqft",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "Weekend",  "amount": "600.00" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/wedding/DanceFloor.jpg",
+    },
+    {
+      "id": "3",
+      "name": "Tent Pole Light",
+      "prices": [
+        { "label": "Weekend",  "amount": "75.00" },
+      ],
+      "img": "./imgs/products/events/wedding/LED-Ring.jpg",
     },
   ],
   "Games": [
     {
-      "id": "14",
-      "name": "ITEM",
+      "id": "1",
+      "name": "Dunk Tank",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "1 Day",  "amount": "250.00" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/games/dunk-tank2-2.jpg",
+    },
+    {
+      "id": "2",
+      "name": "Crown & Anchor",
+      "prices": [
+        { "label": "Weekend",  "amount": "40.00" },
+      ],
+      "img": "./imgs/products/events/games/spin-wheel-white.gif",
+      "altDesc": "Includes Crown & Anchor Mat"
+    },
+    {
+      "id": "3",
+      "name": "Blackjack Table",
+      "prices": [
+        { "label": "Weekend",  "amount": "40.00" },
+      ],
+      "img": "./imgs/products/events/games/BLACKJACK.jpeg",
+    },
+    {
+      "id": "4",
+      "name": "Roulette",
+      "prices": [
+        { "label": "Weekend",  "amount": "30.00" },
+      ],
+      "img": "./imgs/products/events/games/blackandred.gif",
+    },
+    {
+      "id": "5",
+      "name": "Bean Bag Toss",
+      "prices": [
+        { "label": "Weekend",  "amount": "25.00" },
+      ],
+      "img": "./imgs/products/events/games/beans.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Mini Putt",
+      "prices": [
+        { "label": "Weekend",  "amount": "25.00" },
+      ],
+      "img": "./imgs/products/events/games/golf.jpg",
+    },
+    {
+      "id": "7",
+      "name": "Minnow Race",
+      "prices": [
+        { "label": "Weekend",  "amount": "25.00" },
+      ],
+      "img": "./imgs/products/events/games/minnow.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Tug-O-War",
+      "prices": [
+        { "label": "Weekend",  "amount": "20.00" },
+      ],
+      "img": "./imgs/products/events/games/tug.jpeg",
     },
   ],
   "Other/Misc": [
     {
-      "id": "14",
-      "name": "ITEM",
+      "id": "1",
+      "name": "Speaker With Stand",
       "prices": [
-        { "label": "4 Hour",  "amount": "DOLLARS"},
-        { "label": "1 Day",  "amount": "DOLLARS"},
-        { "label": "Weekend",  "amount": "DOLLARS" },
-        { "label": "1 Week", "amount": "1,880.00" },
-        { "label": "4 Weeks", "amount": "5,170.00" }
+        { "label": "Weekend",  "amount": "75.00" },
       ],
-      "img": "./imgs/products/equipment or events/category/imagename.jpg",
-      "model": "ITEM MODEL",
-      "desc": "ADDITIONAL DESCRIPTION"
+      "img": "./imgs/products/events/misc/speaker.png",
+      "altDesc": `<ul>
+      <li>Yorkville YXL12P</li>
+      <li>Comes with tripod stand, microphone.</li>
+      <li>Speaker has easy Bluetooth connectivity.</li>
+      <li>2 speakers are able to be connected together using XLR cable.</li>
+       </ul>`
+    },
+    {
+      "id": "2",
+      "name": "Projector",
+      "prices": [
+        { "label": "Weekend",  "amount": "70.00" },
+      ],
+      "img": "./imgs/products/events/misc/PROJ.jpg",
+      "altDesc": `<ul>
+      <li>Movie Screen (3ft x 6ft) – $20.00</li>
+       </ul>`
+    },
+    {
+      "id": "3",
+      "name": "Megaphone",
+      "prices": [
+        { "label": "Weekend",  "amount": "25.00" },
+      ],
+      "img": "./imgs/products/events/misc/megaphone.jpg",
+    },
+    {
+      "id": "1",
+      "name": "Coat Rack",
+      "prices": [
+        { "label": "Weekend",  "amount": "25.00" },
+      ],
+      "img": "./imgs/products/events/misc/coat.jpg",
     },
   ],
   }
