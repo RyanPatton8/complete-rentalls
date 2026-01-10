@@ -1359,7 +1359,7 @@ const products = {
       "img": "./imgs/products/equipment/heaters/4torch.jpg",
     },
     {
-      "id": "14",
+      "id": "6",
       "name": "Turbo Dehumidifier",
       "prices": [
         { "label": "1 Day",  "amount": "60.00"},
@@ -1369,7 +1369,7 @@ const products = {
       "img": "./imgs/products/equipment/heaters/4dehumid..jpg",
     },
     {
-      "id": "14",
+      "id": "7",
       "name": "Turbo Floor Fan",
       "prices": [
         { "label": "1 Day",  "amount": "30.00"},
@@ -1377,6 +1377,21 @@ const products = {
         { "label": "4 Weeks", "amount": "360.00" }
       ],
       "img": "./imgs/products/equipment/heaters/snail.jpg",
+    },
+    {
+      "id": "8",
+      "name": "Air Scrubber",
+      "prices": [
+        { "label": "1 Day",  "amount": "40.00"},
+        { "label": "1 Week", "amount": "160.00" },
+        { "label": "4 Weeks", "amount": "480.00" }
+      ],
+      "img": "./imgs/products/equipment/heaters/SCRUB.jpg",
+      "altDesc": `<ul>
+          <Requires Filter>
+          <li>Filter Kit - $60.00</li>
+          <li>HEPA Filter (Optional) - $125.00</li>
+        </ul>`
     },
   ],
   "Hoists and Lifts": [
@@ -2981,7 +2996,7 @@ const products = {
         { "label": "Weekend",  "amount": "16.00" },
       ],
       "img": "./imgs/products/events/tables/Cruiser1.jpg",
-      "desc": "Cruiser Form-Fit Linen - $14.00"
+      "altDesc": "Cruiser Form-Fit Linen - $14.00"
     },
     {
       "id": "4",
@@ -2990,7 +3005,7 @@ const products = {
         { "label": "Weekend",  "amount": "14.00" },
       ],
       "img": "./imgs/products/events/tables/linen.jpeg",
-      "desc": "Comes in Black ($12.00) or White ($14.00)"
+      "altDesc": "Comes in Black ($12.00) or White ($14.00)"
     },
     {
       "id": "5",
@@ -2999,6 +3014,10 @@ const products = {
         { "label": "Weekend",  "amount": "14.00" },
       ],
       "img": "./imgs/products/events/tables/8ft-Linen.jpg",
+      "altDesc": `<ul>
+      <li>Dimensions – 54″ x 120″</li>
+      <li>Comes in Black ($12.00) or White ($14.00)</li>
+       </ul>`
     },
     {
       "id": "6",
@@ -3007,7 +3026,7 @@ const products = {
         { "label": "Weekend",  "amount": "13.50" },
       ],
       "img": "./imgs/products/events/tables/8ft-Table.jpg",
-      "desc": "Width – 30″"
+      "altDesc": "Width – 30″"
     },
     {
       "id": "7",
@@ -3024,7 +3043,7 @@ const products = {
         { "label": "Weekend",  "amount": "11.00" },
       ],
       "img": "./imgs/products/events/tables/8ft-Table.jpg",
-      "desc": "Width – 30″"
+      "altdesc": "Width – 30″"
     },
     {
       "id": "9",
@@ -3049,7 +3068,7 @@ const products = {
         { "label": "Weekend",  "amount": "3.50" },
       ],
       "img": "./imgs/products/events/tables/cover.jpg",
-      "desc": "Will fit on our Black & White folding chairs."
+      "altDesc": "Will fit on our Black & White folding chairs."
     },
     {
       "id": "12",
@@ -3109,6 +3128,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.65" },
       ],
       "img": "./imgs/products/events/dinnerware/6-in-snowdrop.png",
+      "altDesc" : "(Comes in multiples of 20)"
     },
     {
       "id": "3",
@@ -3137,7 +3157,7 @@ const products = {
         { "label": "Weekend",  "amount": "1.20" },
       ],
       "img": "./imgs/products/events/dinnerware/cup.jpg",
-      "desc": `<ul>
+      "altDesc": `<ul>
   <li>Cup – $0.60/each (Comes in multiples of 20)</li>
   <li>Saucer – $0.60/each (Comes in multiples of 20)</li>
 </ul>`
@@ -3150,7 +3170,7 @@ const products = {
         { "label": "Weekend",  "amount": "1.00" },
       ],
       "img": "./imgs/products/events/dinnerware/square-10-in.png",
-      "desc": "Comes in multiples of 15"
+      "altDesc": "Comes in multiples of 15"
     },
     {
       "id": "7",
@@ -3159,7 +3179,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.80" },
       ],
       "img": "./imgs/products/events/dinnerware/square-7-in.png",
-      "desc": "Comes in multiples of 15"
+      "altDesc": "Comes in multiples of 15"
     },
     {
       "id": "8",
@@ -3168,7 +3188,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.75" },
       ],
       "img": "./imgs/products/events/dinnerware/square-bowl.png",
-      "desc": "Comes in multiples of 15"
+      "altDesc": "Comes in multiples of 15"
     },
     {
       "id": "9",
@@ -3177,7 +3197,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.75" },
       ],
       "img": "./imgs/products/events/dinnerware/bowl.jpg",
-      "desc": "Comes in multiples of 20"
+      "altDesc": "Comes in multiples of 20"
     },
     {
       "id": "10",
@@ -3186,7 +3206,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.75" },
       ],
       "img": "./imgs/products/events/dinnerware/Soup-bowl-snowdrop.png",
-      "desc": "Comes in multiples of 20"
+      "altDesc": "Comes in multiples of 20"
     },
     {
       "id": "9",
@@ -3195,7 +3215,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.75" },
       ],
       "img": "./imgs/products/events/dinnerware/10-in-snowdrop.png",
-      "desc": "Comes in multiples of 20"
+      "altDesc": "Comes in multiples of 20"
     },
     {
       "id": "10",
@@ -3204,7 +3224,7 @@ const products = {
         { "label": "Weekend",  "amount": "0.65" },
       ],
       "img": "./imgs/products/events/dinnerware/7-in-snowdrop.png",
-      "desc": "Comes in multiples of 20"
+      "altDesc": "Comes in multiples of 20"
     },
     {
       "id": "11",
@@ -3500,6 +3520,17 @@ const products = {
         { "label": "Weekend",  "amount": "0.50" },
       ],
       "img": "./imgs/products/events/food/cream.jpg",
+    },
+    {
+      "id": "18",
+      "name": "Snow Cone Machine",
+      "prices": [
+        { "label": "Weekend",  "amount": "80.00" },
+      ],
+      "img": "./imgs/products/events/food/SNOW.jpg",
+      "altDesc": `<ul>
+      <li>Snow Cone Kit (100 people) - $80 Does Not Include Machine /each</li>
+       </ul>`
     },
   ],
   "Wedding Accessories": [
