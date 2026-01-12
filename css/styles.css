@@ -472,6 +472,8 @@ iframe {
     margin: 10px;
     justify-content: space-between;
     min-height: 200px;
+    min-width: 140px;
+    max-width: 140px;
 }
 .item-card img {
     width: 100%;
