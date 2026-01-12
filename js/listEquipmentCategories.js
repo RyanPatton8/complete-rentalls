@@ -9,7 +9,7 @@ function renderItems(entries) {
     for (const [subCategory, list] of entries) {
         const firstItem = list[0];
         const card = document.createElement("a");
-        card.href = `./products.html?category=${encodeURIComponent(category)}&sub-category=${encodeURIComponent(subCategory)}`;
+        card.href = `./categories/${subCategory.replace(/[ /]/g, "")}.html`;
         card.className = "item-card";
         card.innerHTML = `
         <img src="${firstItem.img}">
