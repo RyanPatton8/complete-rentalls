@@ -13,13 +13,12 @@ function renderItems(entries) {
         card.className = "item-card";
         card.innerHTML = `
         <img src="${firstItem.img}">
-        <p>${subCategory}</p>
+        <h2>${subCategory}</h2>
         `;
         itemHolder.appendChild(card);
     }
 }
 
-renderItems(Object.entries(equipmentObj));
 
 const searchBar = document.querySelector("#search");
 

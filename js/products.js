@@ -484,7 +484,7 @@ const products = {
         { "label": "1 Week", "amount": "80.00" },
         { "label": "4 Weeks", "amount": "240.00" }
       ],
-      "img": "./imgs/products/equipment/concrete/abullfloat.jpg",
+      "img": "./imgs/products/equipment/Concrete/abullfloat.jpg",
     },
     {
       "id": "2",
@@ -496,7 +496,7 @@ const products = {
         { "label": "1 Week", "amount": "200.00" },
         { "label": "4 Weeks", "amount": "400.00" }
       ],
-      "img": "./imgs/products/equipment/concrete/amixer.jpg",
+      "img": "./imgs/products/equipment/Concrete/amixer.jpg",
     },
     {
       "id": "3",
@@ -507,7 +507,7 @@ const products = {
         { "label": "1 Week", "amount": "420.00" },
         { "label": "4 Weeks", "amount": "1260.00" }
       ],
-      "img": "./imgs/products/equipment/concrete/atrowell.jpg",
+      "img": "./imgs/products/equipment/Concrete/atrowell.jpg",
     },
     {
       "id": "4",
@@ -519,7 +519,7 @@ const products = {
         { "label": "1 Week", "amount": "220.00" },
         { "label": "4 Weeks", "amount": "660.00" }
       ],
-      "img": "./imgs/products/equipment/concrete/vibrator.jpg",
+      "img": "./imgs/products/equipment/Concrete/vibrator.jpg",
     },
     {
       "id": "5",
@@ -530,7 +530,7 @@ const products = {
         { "label": "1 Week", "amount": "64.00" },
         { "label": "4 Weeks", "amount": "128.00" }
       ],
-      "img": "./imgs/products/equipment/concrete/barrow.jpg",
+      "img": "./imgs/products/equipment/Concrete/barrow.jpg",
     },
     
   ],
@@ -924,7 +924,7 @@ const products = {
           { "label": "1 Week", "amount": "1200.00" },
           { "label": "4 Weeks", "amount": "3000.00" }
         ],
-        "img": "./imgs/products/equipment/Excavators/rake.jpg",
+        "img": "./imgs/products/equipment/Excavators/Rake.jpg",
       },
       {
         "id": "12",
@@ -957,7 +957,7 @@ const products = {
           { "label": "1 Week", "amount": "810.00" },
           { "label": "4 Weeks", "amount": "2700.00" }
         ],
-        "img": "./imgs/products/equipment/Excavators/Sweeper.jpg",
+        "img": "./imgs/products/equipment/Excavators/sweeper.jpg",
       },
       {
         "id": "15",
@@ -1388,7 +1388,7 @@ const products = {
       ],
       "img": "./imgs/products/equipment/heaters/SCRUB.jpg",
       "altDesc": `<ul>
-          <Requires Filter>
+          <li>Requires Filter</li>
           <li>Filter Kit - $60.00</li>
           <li>HEPA Filter (Optional) - $125.00</li>
         </ul>`
@@ -1511,7 +1511,7 @@ const products = {
     {
       "id": "3",
       "name": "20 Tonne Screw Jack",
-      "prices": [,
+      "prices": [
         { "label": "1 Day",  "amount": "15"},
         { "label": "Weekend",  "amount": "22.50" },
         { "label": "1 Week", "amount": "60.00" },
@@ -3671,3 +3671,6 @@ const products = {
   ],
   }
 };
+
+
+module.exports = products;
