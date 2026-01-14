@@ -40,17 +40,6 @@ const products = {
   "Equipment": {
 "Augers": [
     {
-      "id": "76",
-      "name": "Clam Shovel",
-      "prices": [
-        { "label": "1 Day",  "amount": "15.00"},
-        { "label": "Weekend",  "amount": "22.50" },
-        { "label": "1 Week", "amount": "60.00" },
-        { "label": "4 Weeks", "amount": "180.00" }
-      ],
-      "img": "./imgs/products/equipment/Augers/clam.jpg",
-    },
-    {
       "id": "77",
       "name": "Power Post Hole Auger – 1 Man",
       "prices": [
@@ -66,6 +55,17 @@ const products = {
           <li>8″, 10″ or 12″ bit avaiable</li>
           <li>Extension – $5.00 (if hole is 4' deep)</li>
         </ul>`
+    },
+    {
+      "id": "76",
+      "name": "Clam Shovel",
+      "prices": [
+        { "label": "1 Day",  "amount": "15.00"},
+        { "label": "Weekend",  "amount": "22.50" },
+        { "label": "1 Week", "amount": "60.00" },
+        { "label": "4 Weeks", "amount": "180.00" }
+      ],
+      "img": "./imgs/products/equipment/Augers/clam.jpg",
     },
     {
       "id": "78",
@@ -2554,6 +2554,18 @@ const products = {
   ],
   "Saws": [
     {
+      "id": "4",
+      "name": "Concrete Saw – 14″ Gas",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/saws/ts.jpg",
+    },
+    {
       "id": "1",
       "name": "Brush Saw – 10″ Gas Powered",
       "prices": [
@@ -2586,18 +2598,6 @@ const products = {
         { "label": "4 Weeks", "amount": "1140.00" }
       ],
       "img": "./imgs/products/equipment/saws/24IN-CHAINSAW.jpg",
-    },
-    {
-      "id": "4",
-      "name": "Concrete Saw – 14″ Gas",
-      "prices": [
-        { "label": "4 Hour",  "amount": "50.00"},
-        { "label": "1 Day",  "amount": "65.00"},
-        { "label": "Weekend",  "amount": "97.50" },
-        { "label": "1 Week", "amount": "260.00" },
-        { "label": "4 Weeks", "amount": "780.00" }
-      ],
-      "img": "./imgs/products/equipment/saws/ts.jpg",
     },
     {
       "id": "5",
@@ -2831,6 +2831,25 @@ const products = {
       ],
       "img": "./imgs/products/equipment/trailers/12ft-utility.png",
       "desc": "WEIGHT LIMIT 1900 LBS"
+    },
+  ],
+  "Vacuum Lifts": [
+    {
+      "id": "1",
+      "name": "MK 2 Archback Vacuum Lift",
+      "prices": [
+        { "label": "1 Day",  "amount": "135.00"},
+        { "label": "Weekend",  "amount": "202.50" },
+        { "label": "1 Week", "amount": "540.00" },
+        { "label": "4 Weeks", "amount": "1620.00" }
+      ],
+      "img": "./imgs/products/equipment/archback/mk2.jpg",
+      "desc": `<ul>
+           <li>Chain and Pad Included</li>
+           <li>12″x12″ Pad - 415lbs Max</li>
+           <li>12″x36″ Pad - 1400lbs Max</li>
+           <li>Additional Pad - $40.00</li>
+         </ul>`
     },
   ],
   "Welding Equipment": [
