@@ -13,12 +13,10 @@ function renderItems(items) {
   itemHolder.innerHTML = "";
   for (i of sortedItems) {
     const card = document.createElement("a");
-    card.href = `./product-details.html?category=${encodeURIComponent(
-      category
-    )}&sub-category=${encodeURIComponent(subCategory)}&id=${i.id}`;
+    card.href = `/products/${i.name.replace(/[ /]/g,"")}.html`;
     card.className = "item-card";
     card.innerHTML = `
-        <img src="${i.img}" alt="${i.name} rental in Orillia">
+        <img src=".${i.img}" alt="${i.name} rental in Orillia">
         <h2>${i.name}</h2>
         `;
     itemHolder.appendChild(card);
