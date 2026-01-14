@@ -2844,7 +2844,7 @@ const products = {
         { "label": "4 Weeks", "amount": "1620.00" }
       ],
       "img": "./imgs/products/equipment/archback/mk2.jpg",
-      "desc": `<ul>
+      "altDesc": `<ul>
            <li>Chain and Pad Included</li>
            <li>12″x12″ Pad - 415lbs Max</li>
            <li>12″x36″ Pad - 1400lbs Max</li>
