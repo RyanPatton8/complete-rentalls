@@ -837,7 +837,7 @@ const products = {
       },
       {
         "id": "4",
-        "name": "Mini Backhoe – Kubota bx23S",
+        "name": "Mini Backhoe",
         "prices": [
           { "label": "1 Day",  "amount": "270.00" },
           { "label": "Weekend",  "amount": "405.00" },
@@ -845,6 +845,7 @@ const products = {
           { "label": "4 Weeks", "amount": "2700.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/Mini-Backhoe.jpg",
+        "model": "Kubota BX23S ",
       },
       {
         "id": "5",
