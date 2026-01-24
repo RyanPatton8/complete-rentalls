@@ -1466,11 +1466,10 @@ const products = {
       "id": "7",
       "name": "Scissor Lift 19′",
       "prices": [
-        { "label": "4 Hour",  "amount": ""},
-        { "label": "1 Day",  "amount": ""},
-        { "label": "Weekend",  "amount": "" },
-        { "label": "1 Week", "amount": "" },
-        { "label": "4 Weeks", "amount": "" }
+        { "label": "1 Day",  "amount": "150.00"},
+        { "label": "Weekend",  "amount": "225.00" },
+        { "label": "1 Week", "amount": "450.00" },
+        { "label": "4 Weeks", "amount": "900.00" }
       ],
       "img": "./imgs/products/equipment/hoists/askyjack.jpg",
     },
@@ -2979,7 +2978,7 @@ const products = {
       "id": "11",
       "name": "20×20 Pole Tent",
       "prices": [
-        { "label": "Weekend",  "amount": ""},
+        { "label": "Weekend",  "amount": "480.00"},
       ],
       "img": "./imgs/products/events/tents/2020.jpg",
     },
@@ -3118,7 +3117,7 @@ const products = {
       "id": "15",
       "name": "Napkins",
       "prices": [
-        { "label": "Weekend",  "amount": "" },
+        { "label": "Weekend",  "amount": "0.75" },
       ],
       "img": "./imgs/products/events/tables/napkin.jpg",
     },
