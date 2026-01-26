@@ -801,7 +801,7 @@ const products = {
       "img": "./imgs/products/equipment/electric tools/6router.jpg",
     },
   ],
-    "Excavators": [
+    "Earth Moving": [
       {
         "id": "1",
         "name": "Auger Attachment (mini skid steer 9″-12″-24″)",
@@ -857,6 +857,7 @@ const products = {
           { "label": "4 Weeks", "amount": "3240.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/Kubota.jpg",
+        "model": "KUBOTA U-17 ",
       },
       {
         "id": "6",
@@ -937,6 +938,7 @@ const products = {
           { "label": "4 Weeks", "amount": "4000.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/TRACK.jpg",
+        "model": "Kubota  ",
       },
       {
         "id": "13",
