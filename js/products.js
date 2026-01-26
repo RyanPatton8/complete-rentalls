@@ -905,6 +905,7 @@ const products = {
           { "label": "4 Weeks", "amount": "2800.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/stand.jpg",
+        "model": "Baumalight BL1007873",
       },
       {
         "id": "10",
@@ -938,7 +939,7 @@ const products = {
           { "label": "4 Weeks", "amount": "4000.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/TRACK.jpg",
-        "model": "Kubota  ",
+        "model": "Kubota SVL65",
       },
       {
         "id": "13",
@@ -950,6 +951,7 @@ const products = {
           { "label": "4 Weeks", "amount": "3200.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/Wheel.jpg",
+        "model": "Kubota SSV65",
       },
       {
         "id": "14",
@@ -972,6 +974,7 @@ const products = {
           { "label": "4 Weeks", "amount": "2000.00" }
         ],
         "img": "./imgs/products/equipment/Excavators/CARRIER.png",
+        "model": "Kubota KC120",
       },
       {
         "id": "16",
