@@ -35,7 +35,7 @@
         // </ul>`
 //     },
 //   ],
-  
+
 const products = {
   "Equipment": {
 "Augers": [
@@ -1272,6 +1272,18 @@ const products = {
   ],
   "Grinders & Sanders": [
     {
+      "id": "4",
+      "name": "Orbital Sander",
+      "prices": [
+        { "label": "4 Hour",  "amount": "55.00"},
+        { "label": "1 Day",  "amount": "70.00"},
+        { "label": "Weekend",  "amount": "105.00" },
+        { "label": "1 Week", "amount": "280.00" },
+        { "label": "4 Weeks", "amount": "840.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/orbital.jpg",
+    },
+    {
       "id": "1",
       "name": "Die Grinder – Stones/Extra",
       "prices": [
@@ -1306,6 +1318,30 @@ const products = {
         { "label": "4 Weeks", "amount": "288.00" }
       ],
       "img": "./imgs/products/equipment/grinders/grind.jpg",
+    },
+    {
+      "id": "5",
+      "name": "Drum Sander",
+      "prices": [
+        { "label": "4 Hour",  "amount": "50.00"},
+        { "label": "1 Day",  "amount": "65.00"},
+        { "label": "Weekend",  "amount": "97.50" },
+        { "label": "1 Week", "amount": "260.00" },
+        { "label": "4 Weeks", "amount": "780.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/drum.jpg",
+    },
+    {
+      "id": "6",
+      "name": "Floor Edger",
+      "prices": [
+        { "label": "4 Hour",  "amount": "40.00"},
+        { "label": "1 Day",  "amount": "50.00"},
+        { "label": "Weekend",  "amount": "75.00" },
+        { "label": "1 Week", "amount": "200.00" },
+        { "label": "4 Weeks", "amount": "600.00" }
+      ],
+      "img": "./imgs/products/equipment/grinders/edger.jpg",
     },
   ],
   "Heaters and Fans": [
@@ -1649,6 +1685,18 @@ const products = {
     },
   ],
   "Lawn And Garden Tools": [
+    {
+      "id": "30",
+      "name": "Self-Propelled Top Dresser",
+      "prices": [
+        { "label": "4 Hour",  "amount": "190.00"},
+        { "label": "1 Day",  "amount": "240.00"},
+        { "label": "Weekend",  "amount": "360.00" },
+        { "label": "1 Week", "amount": "960.00" },
+        { "label": "4 Weeks", "amount": "2880.00" }
+      ],
+      "img": "./imgs/products/equipment/garden/ECO-250-5.jpg",
+    },
     {
       "id": "1",
       "name": "Aerator – Towable",
@@ -3697,4 +3745,4 @@ const products = {
 };
 
 
-module.exports = products;
+//module.exports = products;
