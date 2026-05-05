@@ -1438,6 +1438,17 @@ const products = {
   ],
   "Hoists and Lifts": [
     {
+      "id": "77",
+      "name": "45' Articulating Lift",
+      "prices": [
+        { "label": "1 Day",  "amount": "400.00"},
+        { "label": "Weekend",  "amount": "600.000" },
+        { "label": "1 Week", "amount": "1400.00" },
+        { "label": "4 Weeks", "amount": "3900.00" }
+      ],
+      "img": "./imgs/products/equipment/hoists/artic.jpg",
+    },
+    {
       "id": "1",
       "name": "Chain Fall 1-1/2 Tonne",
       "prices": [
@@ -3745,4 +3756,4 @@ const products = {
 };
 
 
-//module.exports = products;
+module.exports = products;
